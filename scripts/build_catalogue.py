@@ -67,9 +67,6 @@ def main():
             "subtitle": item.get("subtitle", ""),
             "url": item.get("url", ""),
             "availableTabs": item.get("availableTabs", []),
-            "availableEntities": item.get(
-                "availableEntities", []
-            ),
         }
 
     catalogue = sorted(

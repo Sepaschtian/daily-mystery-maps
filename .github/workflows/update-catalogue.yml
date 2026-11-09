@@ -26,9 +26,12 @@ jobs:
       - name: Build catalogue
         run: python scripts/build_catalogue.py
 
+      - name: Audit geographical data
+        run: python scripts/audit_geography.py
+
       - name: Commit catalogue if changed
         run: |
-          git add catalogue.json
+          git add catalogue.json geography-audit.json
 
           if git diff --cached --quiet; then
             echo "Catalogue has not changed."

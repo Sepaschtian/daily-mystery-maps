@@ -3,109 +3,260 @@
     "slug": "above-ground-biomass-in-forest-per-hectare",
     "title": "Above-ground forest biomass",
     "url": "https://ourworldindata.org/grapher/above-ground-biomass-in-forest-per-hectare",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Above-ground biomass in forest (tonnes per hectare)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1990",
-        "Above-ground biomass in forest (tonnes per hectare)": "87.4"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Above-ground biomass in forest (tonnes per hectare)": "87.4"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2010",
-        "Above-ground biomass in forest (tonnes per hectare)": "87.4"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1228,
+      "geographic-region": 90,
+      "other-geographic-code": 6,
+      "statistical-aggregate": 18
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "age-dependency-ratio-young-of-working-age-population",
     "title": "Youth dependency ratio",
     "url": "https://ourworldindata.org/grapher/age-dependency-ratio-young-of-working-age-population",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Age dependency ratio, young (% of working-age population)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_UMC",
-      "OWID_WRL",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1950",
-        "Age dependency ratio, young (% of working-age population)": "73.15479"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1951",
-        "Age dependency ratio, young (% of working-age population)": "73.25674"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1952",
-        "Age dependency ratio, young (% of working-age population)": "73.39087"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 17316,
+      "geographic-region": 1036,
+      "entity-without-code": 296,
+      "statistical-aggregate": 740
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN)",
+          "code": "UN_LAC"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Americas (UN)",
+          "code": ""
+        },
+        {
+          "entity": "Less developed regions",
+          "code": ""
+        },
+        {
+          "entity": "Less developed regions, excluding China",
+          "code": ""
+        },
+        {
+          "entity": "More developed regions",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Land-locked developing countries (LLDC)",
+          "code": ""
+        },
+        {
+          "entity": "Least developed countries",
+          "code": ""
+        },
+        {
+          "entity": "Less developed regions, excluding least developed countries",
+          "code": ""
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Small island developing states (SIDS)",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
@@ -114,157 +265,374 @@
     "url": "https://ourworldindata.org/grapher/air-pollution-deaths-country",
     "status": "download-failed",
     "columns": [],
-    "geography_clues": [],
+    "entity_counts": {},
+    "entity_examples": {},
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [],
     "error": "HTTP Error 403: Forbidden"
   },
   {
     "slug": "annual-freshwater-withdrawals",
     "title": "Annual freshwater withdrawals",
     "url": "https://ourworldindata.org/grapher/annual-freshwater-withdrawals",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Annual freshwater withdrawals"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_EU27",
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "WB_EAP",
-      "WB_ECA",
-      "WB_LAC",
-      "WB_MENAP",
-      "WB_NA",
-      "WB_SA",
-      "WB_SSA"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1975",
-        "Annual freshwater withdrawals": "10700000000"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1976",
-        "Annual freshwater withdrawals": "11984259000"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1977",
-        "Annual freshwater withdrawals": "13268517000"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 6215,
+      "geographic-region": 141,
+      "statistical-aggregate": 45
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific (WB)",
+          "code": "WB_EAP"
+        },
+        {
+          "entity": "Europe and Central Asia (WB)",
+          "code": "WB_ECA"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Latin America and Caribbean (WB)",
+          "code": "WB_LAC"
+        },
+        {
+          "entity": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
+          "code": "WB_MENAP"
+        },
+        {
+          "entity": "North America (WB)",
+          "code": "WB_NA"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "arable-land-use-per-person",
     "title": "Arable land use per person",
     "url": "https://ourworldindata.org/grapher/arable-land-use-per-person",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Arable land (hectares per person)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_EU27",
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "WB_EAP",
-      "WB_ECA",
-      "WB_LAC",
-      "WB_MENAP",
-      "WB_NA",
-      "WB_SA",
-      "WB_SSA"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1961",
-        "Arable land (hectares per person)": "0.8302508"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1962",
-        "Arable land (hectares per person)": "0.81876516"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1963",
-        "Arable land (hectares per person)": "0.8069145"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 11716,
+      "geographic-region": 599,
+      "statistical-aggregate": 315
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific (WB)",
+          "code": "WB_EAP"
+        },
+        {
+          "entity": "Europe and Central Asia (WB)",
+          "code": "WB_ECA"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Latin America and Caribbean (WB)",
+          "code": "WB_LAC"
+        },
+        {
+          "entity": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
+          "code": "WB_MENAP"
+        },
+        {
+          "entity": "North America (WB)",
+          "code": "WB_NA"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "avertable-deaths-from-rotavirus-with-full-vaccine-coverage",
     "title": "Rotavirus deaths that were preventable in children under five",
     "url": "https://ourworldindata.org/grapher/avertable-deaths-from-rotavirus-with-full-vaccine-coverage",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "preventable deaths from rotavirus"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2016",
-        "preventable deaths from rotavirus": "642"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2016",
-        "preventable deaths from rotavirus": "0"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "2016",
-        "preventable deaths from rotavirus": "33"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 191,
+      "geographic-region": 21,
+      "entity-without-code": 6,
+      "statistical-aggregate": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Caribbean",
+          "code": ""
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central Asia",
+          "code": ""
+        },
+        {
+          "entity": "Central Europe",
+          "code": ""
+        },
+        {
+          "entity": "Central Sub-Saharan Africa",
+          "code": ""
+        },
+        {
+          "entity": "East Asia",
+          "code": ""
+        },
+        {
+          "entity": "Eastern Europe",
+          "code": ""
+        },
+        {
+          "entity": "Eastern Sub-Saharan Africa",
+          "code": ""
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "England",
+          "code": ""
+        },
+        {
+          "entity": "High-income",
+          "code": ""
+        },
+        {
+          "entity": "Micronesia (region)",
+          "code": ""
+        },
+        {
+          "entity": "Northern Ireland",
+          "code": ""
+        },
+        {
+          "entity": "Scotland",
+          "code": ""
+        },
+        {
+          "entity": "Wales",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "bribery-prevalence-un",
     "title": "Share of people who say they were asked for a bribe or paid one",
     "url": "https://ourworldindata.org/grapher/bribery-prevalence-un",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -272,79 +640,125 @@
       "Share of people who recently paid a bribe or were asked for one",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_KOS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2009",
-        "Share of people who recently paid a bribe or were asked for one": "58.6",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2012",
-        "Share of people who recently paid a bribe or were asked for one": "50.1",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2010",
-        "Share of people who recently paid a bribe or were asked for one": "19.3",
-        "World region according to OWID": "Europe"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 276,
+      "statistical-aggregate": 2,
+      "geographic-region": 3
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "census-based-on-population-register-recently-completed",
     "title": "Census based on population register recently completed",
     "url": "https://ourworldindata.org/grapher/census-based-on-population-register-recently-completed",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Census based on population register within 10 years"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1750",
-        "Census based on population register within 10 years": "No"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1751",
-        "Census based on population register within 10 years": "No"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1752",
-        "Census based on population register within 10 years": "No"
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 17822
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Bolivia",
+          "code": "BOL"
+        },
+        {
+          "entity": "Brazil",
+          "code": "BRA"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "child-homicide-rate-per-100000",
     "title": "Child homicide rate",
     "url": "https://ourworldindata.org/grapher/child-homicide-rate-per-100000",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -352,210 +766,453 @@
       "Number of homicide victims among children (0-19) per 100,000 population",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2015",
-        "Number of homicide victims among children (0-19) per 100,000 population": "8",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2015",
-        "Number of homicide victims among children (0-19) per 100,000 population": "2",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "2015",
-        "Number of homicide victims among children (0-19) per 100,000 population": "2",
-        "World region according to OWID": "Africa"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 135,
+      "geographic-region": 2,
+      "entity-without-code": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Korea",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "co2-intensity",
     "title": "Carbon intensity: CO₂ emissions per dollar of GDP",
     "url": "https://ourworldindata.org/grapher/co2-intensity",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Annual CO₂ emissions per GDP (kg per international-$)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_UMC",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1950",
-        "Annual CO₂ emissions per GDP (kg per international-$)": "0.008944742"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1951",
-        "Annual CO₂ emissions per GDP (kg per international-$)": "0.00945082"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1952",
-        "Annual CO₂ emissions per GDP (kg per international-$)": "0.009144158"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 14526,
+      "geographic-region": 2375,
+      "statistical-aggregate": 627
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia (excl. China and India)",
+          "code": ""
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Europe (excl. EU-27)",
+          "code": ""
+        },
+        {
+          "entity": "Europe (excl. EU-28)",
+          "code": ""
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "countries-that-are-parties-to-the-nagoya-protocol",
     "title": "Countries that are party to the Nagoya Protocol",
     "url": "https://ourworldindata.org/grapher/countries-that-are-parties-to-the-nagoya-protocol",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2021",
-        "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)": "1"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2022",
-        "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)": "1"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2023",
-        "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)": "1"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 974,
+      "other-geographic-code": 11,
+      "geographic-region": 131,
+      "statistical-aggregate": 33
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN)",
+          "code": "UN_LAC"
+        },
+        {
+          "entity": "Northern Africa and Western Asia (UN SDG)",
+          "code": "UNSDG_NAWA"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "covid-19-testing-policy",
     "title": "COVID-19 testing policies",
     "url": "https://ourworldindata.org/grapher/covid-19-testing-policy",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Day",
       "Testing policy"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_KOS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2020-01-01",
-        "Testing policy": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2020-01-02",
-        "Testing policy": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2020-01-03",
-        "Testing policy": "0"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 199472,
+      "geographic-region": 2192,
+      "statistical-aggregate": 1096
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Aruba",
+          "code": "ABW"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "current-covid-patients-hospital",
     "title": "Number of COVID-19 patients in hospital",
     "url": "https://ourworldindata.org/grapher/current-covid-patients-hospital",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Day",
       "Number of COVID-19 patients in hospital"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Day": "2020-03-31",
-        "Number of COVID-19 patients in hospital": "426"
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Day": "2020-04-01",
-        "Number of COVID-19 patients in hospital": "441"
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Day": "2020-04-02",
-        "Number of COVID-19 patients in hospital": "415"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 34611,
+      "entity-without-code": 5214,
+      "geographic-region": 831
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Bolivia",
+          "code": "BOL"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Canada",
+          "code": "CAN"
+        },
+        {
+          "entity": "Croatia",
+          "code": "HRV"
+        },
+        {
+          "entity": "Cyprus",
+          "code": "CYP"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "England",
+          "code": ""
+        },
+        {
+          "entity": "Northern Ireland",
+          "code": ""
+        },
+        {
+          "entity": "Scotland",
+          "code": ""
+        },
+        {
+          "entity": "Wales",
+          "code": ""
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
@@ -564,248 +1221,522 @@
     "url": "https://ourworldindata.org/grapher/death-rate-from-obesity",
     "status": "download-failed",
     "columns": [],
-    "geography_clues": [],
+    "entity_counts": {},
+    "entity_examples": {},
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [],
     "error": "HTTP Error 403: Forbidden"
   },
   {
     "slug": "death-rates-from-drug-use-disorders-who",
     "title": "Drug use disorder death rate",
     "url": "https://ourworldindata.org/grapher/death-rates-from-drug-use-disorders-who",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Death rate from drug use disorders among both sexes"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Death rate from drug use disorders among both sexes": "1.16"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "Death rate from drug use disorders among both sexes": "1.18"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "Death rate from drug use disorders among both sexes": "1.17"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 4224,
+      "geographic-region": 176,
+      "statistical-aggregate": 22
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        },
+        {
+          "entity": "South America",
+          "code": "OWID_SAM"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "deforestation-agriculture-plantations",
     "title": "Deforestation from commodity-driven agriculture and forest plantations",
     "url": "https://ourworldindata.org/grapher/deforestation-agriculture-plantations",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "total_deforestation"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_SRM",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "total_deforestation": "70.13"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "total_deforestation": "51.01"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2003",
-        "total_deforestation": "13.2"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 3778,
+      "geographic-region": 184,
+      "statistical-aggregate": 28,
+      "entity-without-code": 11
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        },
+        {
+          "entity": "South America",
+          "code": "OWID_SAM"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Serbia and Montenegro",
+          "code": "OWID_SRM"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Sudan and South Sudan",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "domestic-material-consumption-per-unit-of-gdp",
     "title": "Domestic material consumption per gross domestic product",
     "url": "https://ourworldindata.org/grapher/domestic-material-consumption-per-unit-of-gdp",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2020 United States dollars) - Total or no breakdown"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2020 United States dollars) - Total or no breakdown": "4.95"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2020 United States dollars) - Total or no breakdown": "5.04"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2020 United States dollars) - Total or no breakdown": "3.92"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 5120,
+      "geographic-region": 375,
+      "other-geographic-code": 25,
+      "statistical-aggregate": 75
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "endemic-bird-species-by-country",
     "title": "Endemic bird species",
     "url": "https://ourworldindata.org/grapher/endemic-bird-species-by-country",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Endemic bird species"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2025",
-        "Endemic bird species": "1"
-      },
-      {
-        "Entity": "Aland Islands",
-        "Code": "ALA",
-        "Year": "2025",
-        "Endemic bird species": "0"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2025",
-        "Endemic bird species": "0"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 247,
+      "geographic-region": 2
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Aland Islands",
+          "code": "ALA"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "export-of-environmentally-sound-technologies",
     "title": "Export of environmentally sound technologies",
     "url": "https://ourworldindata.org/grapher/export-of-environmentally-sound-technologies",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Amount of tracked exported Environmentally Sound Technologies (current United States dollars)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2017",
-        "Amount of tracked exported Environmentally Sound Technologies (current United States dollars)": "2324584.5"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2018",
-        "Amount of tracked exported Environmentally Sound Technologies (current United States dollars)": "4126911"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2019",
-        "Amount of tracked exported Environmentally Sound Technologies (current United States dollars)": "7455141"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 2401,
+      "geographic-region": 224,
+      "other-geographic-code": 15,
+      "statistical-aggregate": 45
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "foreign-aid-and-investments-given",
     "title": "Foreign aid and investments given",
     "url": "https://ourworldindata.org/grapher/foreign-aid-and-investments-given",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
@@ -813,241 +1744,451 @@
       "Official and private flows by donor - Net disbursements",
       "Official and private flows by donor - Net disbursements (Annotations)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1960",
-        "Official and private flows by donor - Net disbursements": "681084928",
-        "Official and private flows by donor - Net disbursements (Annotations)": ""
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1961",
-        "Official and private flows by donor - Net disbursements": "813881088",
-        "Official and private flows by donor - Net disbursements (Annotations)": ""
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1962",
-        "Official and private flows by donor - Net disbursements": "838354944",
-        "Official and private flows by donor - Net disbursements (Annotations)": ""
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 1714,
+      "entity-without-code": 305
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Canada",
+          "code": "CAN"
+        },
+        {
+          "entity": "Croatia",
+          "code": "HRV"
+        },
+        {
+          "entity": "Cyprus",
+          "code": "CYP"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "DAC EU countries",
+          "code": ""
+        },
+        {
+          "entity": "DAC countries",
+          "code": ""
+        },
+        {
+          "entity": "EU institutions",
+          "code": ""
+        },
+        {
+          "entity": "G7 countries",
+          "code": ""
+        },
+        {
+          "entity": "Multilateral organizations",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "fossil-fuel-subsidies-gdp",
     "title": "Explicit fossil fuel subsidies as a share of GDP",
     "url": "https://ourworldindata.org/grapher/fossil-fuel-subsidies-gdp",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2010",
-        "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)": "0.25"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2011",
-        "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)": "0.14"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2012",
-        "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)": "0.13"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 2614,
+      "geographic-region": 220,
+      "other-geographic-code": 15,
+      "statistical-aggregate": 45
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Aruba",
+          "code": "ABW"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "gender-affirming-care",
     "title": "Gender-affirming care",
     "url": "https://ourworldindata.org/grapher/gender-affirming-care",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Gender-affirming care"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2022",
-        "Gender-affirming care": "Banned"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2023",
-        "Gender-affirming care": "Banned"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2024",
-        "Gender-affirming care": "Banned"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 2402,
+      "geographic-region": 2
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "gross-public-sector-debt-as-a-proportion-of-gdp",
     "title": "Gross public sector debt as a share of gross domestic product",
     "url": "https://ourworldindata.org/grapher/gross-public-sector-debt-as-a-proportion-of-gdp",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Gross public sector debt as a share of GDP"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "2000",
-        "Gross public sector debt as a share of GDP": "10.79"
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "2001",
-        "Gross public sector debt as a share of GDP": "9.64"
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "2002",
-        "Gross public sector debt as a share of GDP": "8.6"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1008,
+      "geographic-region": 15
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Brazil",
+          "code": "BRA"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Canada",
+          "code": "CAN"
+        },
+        {
+          "entity": "Croatia",
+          "code": "HRV"
+        },
+        {
+          "entity": "Cyprus",
+          "code": "CYP"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "housing-discrimination-lgbt-equaldex",
     "title": "Housing discrimination based on sexual orientation or gender identity",
     "url": "https://ourworldindata.org/grapher/housing-discrimination-lgbt-equaldex",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "LGBT+ housing discrimination"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2026",
-        "LGBT+ housing discrimination": "No protections"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2010",
-        "LGBT+ housing discrimination": "Sexual orientation and gender identity"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2011",
-        "LGBT+ housing discrimination": "Sexual orientation and gender identity"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1200,
+      "geographic-region": 32
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "income-small-scale-food-producers",
     "title": "Average income of small-scale food producers",
     "url": "https://ourworldindata.org/grapher/income-small-scale-food-producers",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Average income of small-scale food producers, PPP (constant 2017 international $) - Both sexes"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2005",
-        "Average income of small-scale food producers, PPP (constant 2017 international $) - Both sexes": "3512.03"
-      },
-      {
-        "Entity": "Armenia",
-        "Code": "ARM",
-        "Year": "2010",
-        "Average income of small-scale food producers, PPP (constant 2017 international $) - Both sexes": "1538.85"
-      },
-      {
-        "Entity": "Armenia",
-        "Code": "ARM",
-        "Year": "2013",
-        "Average income of small-scale food producers, PPP (constant 2017 international $) - Both sexes": "1211.43"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 125,
+      "geographic-region": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Bangladesh",
+          "code": "BGD"
+        },
+        {
+          "entity": "Benin",
+          "code": "BEN"
+        },
+        {
+          "entity": "Bolivia",
+          "code": "BOL"
+        },
+        {
+          "entity": "Brazil",
+          "code": "BRA"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Burkina Faso",
+          "code": "BFA"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "international-tourist-departures-per-1000",
     "title": "International tourist departures per 1,000 people",
     "url": "https://ourworldindata.org/grapher/international-tourist-departures-per-1000",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1055,77 +2196,126 @@
       "International tourist departures per 1,000 people",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2020",
-        "International tourist departures per 1,000 people": "101.59926",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2021",
-        "International tourist departures per 1,000 people": "118.27561",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2022",
-        "International tourist departures per 1,000 people": "255.48817",
-        "World region according to OWID": "Europe"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 2419,
+      "geographic-region": 6
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "lead-paint-over-10000ppm",
     "title": "Share of paints with lead levels greater than 10,000 ppm",
     "url": "https://ourworldindata.org/grapher/lead-paint-over-10000ppm",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Share of paints with lead levels exceeding 10,000 parts per million"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Argentina",
-        "Code": "ARG",
-        "Year": "2017",
-        "Share of paints with lead levels exceeding 10,000 parts per million": "10"
-      },
-      {
-        "Entity": "Armenia",
-        "Code": "ARM",
-        "Year": "2016",
-        "Share of paints with lead levels exceeding 10,000 parts per million": "18"
-      },
-      {
-        "Entity": "Azerbaijan",
-        "Code": "AZE",
-        "Year": "2013",
-        "Share of paints with lead levels exceeding 10,000 parts per million": "7"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 56,
+      "geographic-region": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bangladesh",
+          "code": "BGD"
+        },
+        {
+          "entity": "Belarus",
+          "code": "BLR"
+        },
+        {
+          "entity": "Benin",
+          "code": "BEN"
+        },
+        {
+          "entity": "Brazil",
+          "code": "BRA"
+        },
+        {
+          "entity": "Cameroon",
+          "code": "CMR"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "liberal-political-institutions-index",
     "title": "Liberal Political Institutions Index",
     "url": "https://ourworldindata.org/grapher/liberal-political-institutions-index",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1133,54 +2323,155 @@
       "Liberal Political Institutions Index",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_BAD",
-      "OWID_BAV",
-      "OWID_DRV",
-      "OWID_EUR",
-      "OWID_GDR",
-      "OWID_GFR",
-      "OWID_HAN",
-      "OWID_HSG",
-      "OWID_KOS",
-      "OWID_MEC",
-      "OWID_MOD",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_PMA",
-      "OWID_RVN",
-      "OWID_SAM",
-      "OWID_SAX",
-      "OWID_SIC"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1789",
-        "Liberal Political Institutions Index": "0.114",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1790",
-        "Liberal Political Institutions Index": "0.114",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1791",
-        "Liberal Political Institutions Index": "0.114",
-        "World region according to OWID": "Asia"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 28977,
+      "geographic-region": 2431,
+      "statistical-aggregate": 1658,
+      "entity-without-code": 525
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Africa (population-weighted)",
+          "code": ""
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia (population-weighted)",
+          "code": ""
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Europe (population-weighted)",
+          "code": ""
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Baden",
+          "code": "OWID_BAD"
+        },
+        {
+          "entity": "Bavaria",
+          "code": "OWID_BAV"
+        },
+        {
+          "entity": "Democratic Republic of Vietnam",
+          "code": "OWID_DRV"
+        },
+        {
+          "entity": "East Germany",
+          "code": "OWID_GDR"
+        },
+        {
+          "entity": "Hanover",
+          "code": "OWID_HAN"
+        },
+        {
+          "entity": "Hesse Grand Ducal",
+          "code": "OWID_HSG"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Mecklenburg Schwerin",
+          "code": "OWID_MEC"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Brunswick",
+          "code": ""
+        },
+        {
+          "entity": "Duchy of Nassau",
+          "code": ""
+        },
+        {
+          "entity": "Oldenburg",
+          "code": ""
+        },
+        {
+          "entity": "Palestine/Gaza",
+          "code": ""
+        },
+        {
+          "entity": "Palestine/West Bank",
+          "code": ""
+        },
+        {
+          "entity": "Piedmont-Sardinia",
+          "code": ""
+        },
+        {
+          "entity": "Saxe-Weimar-Eisenach",
+          "code": ""
+        },
+        {
+          "entity": "Wurttemberg",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
@@ -1189,88 +2480,156 @@
     "url": "https://ourworldindata.org/grapher/malaria-deaths-ihme",
     "status": "download-failed",
     "columns": [],
-    "geography_clues": [],
+    "entity_counts": {},
+    "entity_examples": {},
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [],
     "error": "HTTP Error 403: Forbidden"
   },
   {
     "slug": "mechanisms-to-enhance-policy-for-sustainable-development",
     "title": "Mechanisms in place to enhance policy coherence for sustainable development",
     "url": "https://ourworldindata.org/grapher/mechanisms-to-enhance-policy-for-sustainable-development",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Mechanisms in place to enhance policy coherence for sustainable development (%)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Austria",
-        "Code": "AUT",
-        "Year": "2025",
-        "Mechanisms in place to enhance policy coherence for sustainable development (%)": "66"
-      },
-      {
-        "Entity": "Azerbaijan",
-        "Code": "AZE",
-        "Year": "2022",
-        "Mechanisms in place to enhance policy coherence for sustainable development (%)": "91.25"
-      },
-      {
-        "Entity": "Azerbaijan",
-        "Code": "AZE",
-        "Year": "2025",
-        "Mechanisms in place to enhance policy coherence for sustainable development (%)": "96"
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 89
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bahrain",
+          "code": "BHR"
+        },
+        {
+          "entity": "Belarus",
+          "code": "BLR"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Belize",
+          "code": "BLZ"
+        },
+        {
+          "entity": "Bolivia",
+          "code": "BOL"
+        },
+        {
+          "entity": "Bosnia and Herzegovina",
+          "code": "BIH"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "mismanaged-plastic-waste-per-capita",
     "title": "Mismanaged plastic waste per capita",
     "url": "https://ourworldindata.org/grapher/mismanaged-plastic-waste-per-capita",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Mismanaged plastic waste per capita"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Africa",
-        "Code": "OWID_AFR",
-        "Year": "2019",
-        "Mismanaged plastic waste per capita": "10.465928"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2019",
-        "Mismanaged plastic waste per capita": "24.239153"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "2019",
-        "Mismanaged plastic waste per capita": "17.758995"
-      }
+    "entity_counts": {
+      "geographic-region": 6,
+      "iso3-country-or-territory": 158,
+      "statistical-aggregate": 1
+    },
+    "entity_examples": {
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "iso3-country-or-territory": [
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Bahamas",
+          "code": "BHS"
+        },
+        {
+          "entity": "Bahrain",
+          "code": "BHR"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
@@ -1279,208 +2638,428 @@
     "url": "https://ourworldindata.org/grapher/natural-disaster-deaths-ihme",
     "status": "download-failed",
     "columns": [],
-    "geography_clues": [],
+    "entity_counts": {},
+    "entity_examples": {},
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [],
     "error": "HTTP Error 403: Forbidden"
   },
   {
     "slug": "number-of-accessions-of-plant-genetic-resources-secured-in-conservation-facilities",
     "title": "Number of unique plant genetic samples in conservation facilities",
     "url": "https://ourworldindata.org/grapher/number-of-accessions-of-plant-genetic-resources-secured-in-conservation-facilities",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Plant genetic resources accessions stored ex situ (number)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1995",
-        "Plant genetic resources accessions stored ex situ (number)": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Plant genetic resources accessions stored ex situ (number)": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2005",
-        "Plant genetic resources accessions stored ex situ (number)": "0"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1754,
+      "geographic-region": 210,
+      "other-geographic-code": 15,
+      "statistical-aggregate": 45
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bangladesh",
+          "code": "BGD"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN)",
+          "code": "UN_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "number-of-neonatal-deaths-igme",
     "title": "Number of neonatal deaths",
     "url": "https://ourworldindata.org/grapher/number-of-neonatal-deaths-igme",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Neonatal deaths"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_UMC",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1988",
-        "Neonatal deaths": "46905"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1989",
-        "Neonatal deaths": "47332"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1990",
-        "Neonatal deaths": "48171"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 10063,
+      "geographic-region": 433,
+      "statistical-aggregate": 243
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "numeracy-rate-in-adult-women-sdg",
     "title": "Numeracy rate in women",
     "url": "https://ourworldindata.org/grapher/numeracy-rate-in-adult-women-sdg",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%) - Female - Numeracy"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "2012",
-        "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%) - Female - Numeracy": "76.65"
-      },
-      {
-        "Entity": "Austria",
-        "Code": "AUT",
-        "Year": "2012",
-        "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%) - Female - Numeracy": "83.35"
-      },
-      {
-        "Entity": "Belgium",
-        "Code": "BEL",
-        "Year": "2012",
-        "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%) - Female - Numeracy": "83.37"
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 39
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Canada",
+          "code": "CAN"
+        },
+        {
+          "entity": "Chile",
+          "code": "CHL"
+        },
+        {
+          "entity": "Cyprus",
+          "code": "CYP"
+        },
+        {
+          "entity": "Czechia",
+          "code": "CZE"
+        },
+        {
+          "entity": "Denmark",
+          "code": "DNK"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "people-without-electricity-country",
     "title": "Number of people without access to electricity",
     "url": "https://ourworldindata.org/grapher/people-without-electricity-country",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Number of people without access to electricity"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_CIS",
-      "OWID_EU27",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "WB_EAP",
-      "WB_ECA",
-      "WB_LAC",
-      "WB_MENAP",
-      "WB_NA",
-      "WB_SA",
-      "WB_SSA"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Number of people without access to electricity": "19244592"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "Number of people without access to electricity": "18397866"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "Number of people without access to electricity": "18363804"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 6643,
+      "geographic-region": 308,
+      "statistical-aggregate": 189
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific (WB)",
+          "code": "WB_EAP"
+        },
+        {
+          "entity": "Europe and Central Asia (WB)",
+          "code": "WB_ECA"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Latin America and Caribbean (WB)",
+          "code": "WB_LAC"
+        },
+        {
+          "entity": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
+          "code": "WB_MENAP"
+        },
+        {
+          "entity": "North America (WB)",
+          "code": "WB_NA"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Channel Islands",
+          "code": "OWID_CIS"
+        },
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "percentage-change-energy-by-source",
     "title": "Year-to-year percentage change in primary energy use by source",
     "url": "https://ourworldindata.org/grapher/percentage-change-energy-by-source",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1494,71 +3073,130 @@
       "Hydropower",
       "Other renewables"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_UMC",
-      "OWID_USS",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Africa",
-        "Code": "OWID_AFR",
-        "Year": "1966",
-        "Solar": "",
-        "Coal": "-0.115590826",
-        "Gas": "11.765251",
-        "Nuclear": "",
-        "Oil": "8.354528",
-        "Wind": "",
-        "Hydropower": "11.537547",
-        "Other renewables": ""
-      },
-      {
-        "Entity": "Africa",
-        "Code": "OWID_AFR",
-        "Year": "1967",
-        "Solar": "",
-        "Coal": "2.2187805",
-        "Gas": "-1.1613992",
-        "Nuclear": "",
-        "Oil": "-0.34657747",
-        "Wind": "",
-        "Hydropower": "4.3883395",
-        "Other renewables": ""
-      },
-      {
-        "Entity": "Africa",
-        "Code": "OWID_AFR",
-        "Year": "1968",
-        "Solar": "",
-        "Coal": "4.0029125",
-        "Gas": "1.3552405",
-        "Nuclear": "",
-        "Oil": "5.791979",
-        "Wind": "",
-        "Hydropower": "16.970955",
-        "Other renewables": ""
-      }
+    "entity_counts": {
+      "geographic-region": 780,
+      "iso3-country-or-territory": 4399,
+      "entity-without-code": 180,
+      "statistical-aggregate": 259
+    },
+    "entity_examples": {
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Africa (EI)",
+          "code": ""
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia Pacific (EI)",
+          "code": ""
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Europe (EI)",
+          "code": ""
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Middle East (EI)",
+          "code": ""
+        }
+      ],
+      "iso3-country-or-territory": [
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bangladesh",
+          "code": "BGD"
+        },
+        {
+          "entity": "Belarus",
+          "code": "BLR"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "CIS (EI)",
+          "code": ""
+        },
+        {
+          "entity": "OECD (EI)",
+          "code": ""
+        },
+        {
+          "entity": "South and Central America (EI)",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "USSR",
+          "code": "OWID_USS"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "police-officers-per-1000-people",
     "title": "Police officers per 1,000 people",
     "url": "https://ourworldindata.org/grapher/police-officers-per-1000-people",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1566,43 +3204,75 @@
       "Police Officers per 1,000 people",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_GFR",
-      "OWID_KOS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "1997",
-        "Police Officers per 1,000 people": "5.567563",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2001",
-        "Police Officers per 1,000 people": "5.0461535",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2002",
-        "Police Officers per 1,000 people": "4.672942",
-        "World region according to OWID": "Europe"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1675,
+      "statistical-aggregate": 8,
+      "geographic-region": 13
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bahamas",
+          "code": "BHS"
+        },
+        {
+          "entity": "Bahrain",
+          "code": "BHR"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "West Germany",
+          "code": "OWID_GFR"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "population-long-run-with-projections",
     "title": "Population",
     "url": "https://ourworldindata.org/grapher/population-long-run-with-projections",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1610,105 +3280,237 @@
       "Population (projections) (Projected)",
       "Population"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_AKD",
-      "OWID_ASI",
-      "OWID_CZS",
-      "OWID_ERE",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_GDR",
-      "OWID_GFR",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_SRM",
-      "OWID_UMC",
-      "OWID_USS",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "-10000",
-        "Population (projections) (Projected)": "",
-        "Population": "14737"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "-9000",
-        "Population (projections) (Projected)": "",
-        "Population": "20405"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "-8000",
-        "Population (projections) (Projected)": "",
-        "Population": "28253"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 71861,
+      "geographic-region": 3948,
+      "statistical-aggregate": 2455,
+      "entity-without-code": 272
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Akrotiri and Dhekelia",
+          "code": "OWID_AKD"
+        },
+        {
+          "entity": "Czechoslovakia",
+          "code": "OWID_CZS"
+        },
+        {
+          "entity": "East Germany",
+          "code": "OWID_GDR"
+        },
+        {
+          "entity": "Ethiopia (former)",
+          "code": "OWID_ERE"
+        },
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Americas (UN)",
+          "code": ""
+        },
+        {
+          "entity": "Ireland (whole island)",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "prevalence-of-night-blindness-in-pre-school-children",
     "title": "Share of children under five who have night blindness",
     "url": "https://ourworldindata.org/grapher/prevalence-of-night-blindness-in-pre-school-children",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Prevalence of night blindness (WHO (2017))"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2005",
-        "Prevalence of night blindness (WHO (2017))": "0.8"
-      },
-      {
-        "Entity": "Africa",
-        "Code": "OWID_AFR",
-        "Year": "2005",
-        "Prevalence of night blindness (WHO (2017))": "2.1"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2005",
-        "Prevalence of night blindness (WHO (2017))": "0.6"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 154,
+      "geographic-region": 8,
+      "statistical-aggregate": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Latin America and the Caribbean",
+          "code": ""
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "projected-change-dependency-ratios",
     "title": "Projected change in dependency ratio depending on labor force participation",
     "url": "https://ourworldindata.org/grapher/projected-change-dependency-ratios",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
@@ -1717,43 +3519,61 @@
       "Age dependency ratio",
       "Labor force dependency ratio – higher participation"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Austria",
-        "Code": "AUT",
-        "Year": "2015",
-        "Labor force dependency ratio": "100",
-        "Age dependency ratio": "100",
-        "Labor force dependency ratio – higher participation": "100"
-      },
-      {
-        "Entity": "Austria",
-        "Code": "AUT",
-        "Year": "2020",
-        "Labor force dependency ratio": "102.44153",
-        "Age dependency ratio": "105.2788",
-        "Labor force dependency ratio – higher participation": "100.17769999999999"
-      },
-      {
-        "Entity": "Austria",
-        "Code": "AUT",
-        "Year": "2025",
-        "Labor force dependency ratio": "108.73297",
-        "Age dependency ratio": "114.97355",
-        "Labor force dependency ratio – higher participation": "102.21639"
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 280,
+      "entity-without-code": 10
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Croatia",
+          "code": "HRV"
+        },
+        {
+          "entity": "Cyprus",
+          "code": "CYP"
+        },
+        {
+          "entity": "Czechia",
+          "code": "CZE"
+        },
+        {
+          "entity": "Denmark",
+          "code": "DNK"
+        },
+        {
+          "entity": "Estonia",
+          "code": "EST"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "EU-27 + UK",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "public-sector-employment-as-a-share-of-total-employment",
     "title": "Public sector employment as a share of total employment",
     "url": "https://ourworldindata.org/grapher/public-sector-employment-as-a-share-of-total-employment",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -1761,226 +3581,522 @@
       "Public sector employment",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_KOS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2003",
-        "Public sector employment": "8.857613",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2007",
-        "Public sector employment": "5.9403205",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2011",
-        "Public sector employment": "10.950229",
-        "World region according to OWID": "Asia"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1122,
+      "geographic-region": 20,
+      "statistical-aggregate": 4
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "relative-change-male-height",
     "title": "Relative increase in mean heights of men born in 1996 vs. 1896",
     "url": "https://ourworldindata.org/grapher/relative-change-male-height",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Change in male height (%)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_NAM",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1996",
-        "Change in male height (%)": "2.5388815"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "1996",
-        "Change in male height (%)": "6.161768"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "1996",
-        "Change in male height (%)": "6.037682"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 198,
+      "geographic-region": 9,
+      "statistical-aggregate": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific",
+          "code": ""
+        },
+        {
+          "entity": "Europe and Central Asia",
+          "code": ""
+        },
+        {
+          "entity": "Latin America and Caribbean",
+          "code": ""
+        },
+        {
+          "entity": "Middle East and North Africa",
+          "code": ""
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        },
+        {
+          "entity": "South Asia",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "road-traffic-deaths-to-alcohol",
     "title": "Share of road traffic deaths attributed to alcohol",
     "url": "https://ourworldindata.org/grapher/road-traffic-deaths-to-alcohol",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Attribution of road traffic deaths to alcohol (%)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2017",
-        "Attribution of road traffic deaths to alcohol (%)": "5.2"
-      },
-      {
-        "Entity": "Antigua and Barbuda",
-        "Code": "ATG",
-        "Year": "2017",
-        "Attribution of road traffic deaths to alcohol (%)": "0.9"
-      },
-      {
-        "Entity": "Argentina",
-        "Code": "ARG",
-        "Year": "2017",
-        "Attribution of road traffic deaths to alcohol (%)": "17"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 88,
+      "geographic-region": 1
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bolivia",
+          "code": "BOL"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "share-cereal-human-food",
     "title": "Share of cereals allocated to human food",
     "url": "https://ourworldindata.org/grapher/share-cereal-human-food",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Share of cereals allocated to human food"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_CZS",
-      "OWID_ERE",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_SDN",
-      "OWID_SRM",
-      "OWID_UMC",
-      "OWID_USS",
-      "OWID_WRL",
-      "OWID_YGS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1961",
-        "Share of cereals allocated to human food": "90.632164"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1962",
-        "Share of cereals allocated to human food": "90.56106"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1963",
-        "Share of cereals allocated to human food": "89.65763"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 10062,
+      "geographic-region": 1858,
+      "entity-without-code": 480,
+      "statistical-aggregate": 758,
+      "income-group": 63
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Africa (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Asia (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Caribbean (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central Asia (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Eastern Africa (FAO)",
+          "code": ""
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Americas (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Australia and New Zealand (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Belgium-Luxembourg (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Central America (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "China (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Melanesia (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Micronesia (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Polynesia (FAO)",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Czechoslovakia",
+          "code": "OWID_CZS"
+        },
+        {
+          "entity": "Ethiopia (former)",
+          "code": "OWID_ERE"
+        },
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Land Locked Developing Countries (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Least Developed Countries (FAO)",
+          "code": ""
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Net Food Importing Developing Countries (FAO)",
+          "code": ""
+        }
+      ],
+      "income-group": [
+        {
+          "entity": "Low Income Food Deficit Countries (FAO)",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains income-group aggregates.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "share-food-exports",
     "title": "Share of food products in total merchandise exports",
     "url": "https://ourworldindata.org/grapher/share-food-exports",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Food exports (% of merchandise exports)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_EU27",
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "WB_EAP",
-      "WB_ECA",
-      "WB_LAC",
-      "WB_MENAP",
-      "WB_NA",
-      "WB_SA",
-      "WB_SSA"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1962",
-        "Food exports (% of merchandise exports)": "31.947027"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1963",
-        "Food exports (% of merchandise exports)": "26.51912"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1964",
-        "Food exports (% of merchandise exports)": "32.603264"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 7872,
+      "geographic-region": 510,
+      "statistical-aggregate": 219
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific (WB)",
+          "code": "WB_EAP"
+        },
+        {
+          "entity": "Europe and Central Asia (WB)",
+          "code": "WB_ECA"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Latin America and Caribbean (WB)",
+          "code": "WB_LAC"
+        },
+        {
+          "entity": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
+          "code": "WB_MENAP"
+        },
+        {
+          "entity": "North America (WB)",
+          "code": "WB_NA"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "share-of-births-outside-marriage",
     "title": "Share of children who were born outside of marriage",
     "url": "https://ourworldindata.org/grapher/share-of-births-outside-marriage",
-    "status": "country-code-data",
+    "status": "country-or-territory-data",
     "columns": [
       "Entity",
       "Code",
@@ -1988,40 +4104,54 @@
       "Share of births outside marriage",
       "Share of births outside marriage (Annotations)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1975",
-        "Share of births outside marriage": "10.173296",
-        "Share of births outside marriage (Annotations)": ""
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1976",
-        "Share of births outside marriage": "10.124227",
-        "Share of births outside marriage (Annotations)": ""
-      },
-      {
-        "Entity": "Australia",
-        "Code": "AUS",
-        "Year": "1977",
-        "Share of births outside marriage": "10.302664",
-        "Share of births outside marriage (Annotations)": ""
-      }
-    ]
+    "entity_counts": {
+      "iso3-country-or-territory": 2270
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        },
+        {
+          "entity": "Belgium",
+          "code": "BEL"
+        },
+        {
+          "entity": "Bulgaria",
+          "code": "BGR"
+        },
+        {
+          "entity": "Canada",
+          "code": "CAN"
+        },
+        {
+          "entity": "Chile",
+          "code": "CHL"
+        },
+        {
+          "entity": "Colombia",
+          "code": "COL"
+        },
+        {
+          "entity": "Costa Rica",
+          "code": "CRI"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": []
   },
   {
     "slug": "share-of-deaths-from-terrorism",
     "title": "Share of deaths from terrorism",
     "url": "https://ourworldindata.org/grapher/share-of-deaths-from-terrorism",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -2029,100 +4159,209 @@
       "Share of deaths from terrorism",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EUR",
-      "OWID_KOS",
-      "OWID_OCE",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1970",
-        "Share of deaths from terrorism": "0",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1971",
-        "Share of deaths from terrorism": "0",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1972",
-        "Share of deaths from terrorism": "0",
-        "World region according to OWID": "Asia"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 8897,
+      "geographic-region": 306,
+      "statistical-aggregate": 74
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "share-of-land-covered-by-lakes-and-rivers",
     "title": "Share of land covered by lakes and rivers",
     "url": "https://ourworldindata.org/grapher/share-of-land-covered-by-lakes-and-rivers",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Lakes and rivers permanent water area (% of total land area)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Lakes and rivers permanent water area (% of total land area)": "0.4"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "Lakes and rivers permanent water area (% of total land area)": "0.35"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "Lakes and rivers permanent water area (% of total land area)": "0.29"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 4738,
+      "geographic-region": 345,
+      "other-geographic-code": 23,
+      "statistical-aggregate": 69
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "share-of-population-in-severe-multidimensional-poverty",
     "title": "Share of population living in severe multidimensional poverty",
     "url": "https://ourworldindata.org/grapher/share-of-population-in-severe-multidimensional-poverty",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -2130,389 +4369,833 @@
       "Share of population living in severe multidimensional poverty",
       "World region according to OWID"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2022",
-        "Share of population living in severe multidimensional poverty": "39.105083",
-        "World region according to OWID": "Asia"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2017",
-        "Share of population living in severe multidimensional poverty": "0.06706204",
-        "World region according to OWID": "Europe"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "2018",
-        "Share of population living in severe multidimensional poverty": "0.20280777",
-        "World region according to OWID": "Africa"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 106,
+      "geographic-region": 2
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Azerbaijan",
+          "code": "AZE"
+        },
+        {
+          "entity": "Bangladesh",
+          "code": "BGD"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "share-of-the-population-using-improved-water-sources-wash",
     "title": "Share of the population using improved water sources",
     "url": "https://ourworldindata.org/grapher/share-of-the-population-using-improved-water-sources-wash",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Share of the population using an improved drinking water source"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_HIC",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "WHO_AFR",
-      "WHO_AMR",
-      "WHO_EMR",
-      "WHO_EUR",
-      "WHO_SEAR",
-      "WHO_WPAC"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2000",
-        "Share of the population using an improved drinking water source": "32.467636"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2001",
-        "Share of the population using an improved drinking water source": "32.49997"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2002",
-        "Share of the population using an improved drinking water source": "34.792595"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 5536,
+      "geographic-region": 300,
+      "other-geographic-code": 100,
+      "statistical-aggregate": 125
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (WHO)",
+          "code": "WHO_AFR"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (WHO)",
+          "code": "WHO_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        },
+        {
+          "entity": "Northern Africa and Western Asia (UN SDG)",
+          "code": "UNSDG_NAWA"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Americas (WHO)",
+          "code": "WHO_AMR"
+        },
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        },
+        {
+          "entity": "Eastern Mediterranean (WHO)",
+          "code": "WHO_EMR"
+        },
+        {
+          "entity": "Western Pacific (WHO)",
+          "code": "WHO_WPAC"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "share-people-vaccinated-covid",
     "title": "Share of people who received at least one dose of COVID-19 vaccine",
     "url": "https://ourworldindata.org/grapher/share-people-vaccinated-covid",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Day",
       "Share of people with at least one dose"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AFR",
-      "OWID_ASI",
-      "OWID_EU27",
-      "OWID_EUR",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_NAM",
-      "OWID_OCE",
-      "OWID_SAM",
-      "OWID_UMC",
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2021-02-22",
-        "Share of people with at least one dose": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2021-02-28",
-        "Share of people with at least one dose": "0.020207573"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Day": "2021-03-16",
-        "Share of people with at least one dose": "0.13307425"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 61787,
+      "geographic-region": 10028,
+      "statistical-aggregate": 7196
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Anguilla",
+          "code": "AIA"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa",
+          "code": "OWID_AFR"
+        },
+        {
+          "entity": "Asia",
+          "code": "OWID_ASI"
+        },
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "Europe",
+          "code": "OWID_EUR"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "North America",
+          "code": "OWID_NAM"
+        },
+        {
+          "entity": "Oceania",
+          "code": "OWID_OCE"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "sovereign-state-cow",
     "title": "Sovereign state",
     "url": "https://ourworldindata.org/grapher/sovereign-state-cow",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Sovereign state"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AUH",
-      "OWID_BAD",
-      "OWID_BAV",
-      "OWID_CZS",
-      "OWID_GDR",
-      "OWID_GFR",
-      "OWID_HAN",
-      "OWID_KOS",
-      "OWID_KRU",
-      "OWID_MOD",
-      "OWID_PMA",
-      "OWID_RVN",
-      "OWID_SAX",
-      "OWID_SIC",
-      "OWID_TUS",
-      "OWID_WRT",
-      "OWID_YAR",
-      "OWID_YPR",
-      "OWID_ZAN"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1816",
-        "Sovereign state": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1817",
-        "Sovereign state": "0"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1818",
-        "Sovereign state": "0"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 39744,
+      "statistical-aggregate": 3933,
+      "geographic-region": 414,
+      "entity-without-code": 828
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Austria-Hungary",
+          "code": "OWID_AUH"
+        },
+        {
+          "entity": "Baden",
+          "code": "OWID_BAD"
+        },
+        {
+          "entity": "Bavaria",
+          "code": "OWID_BAV"
+        },
+        {
+          "entity": "Czechoslovakia",
+          "code": "OWID_CZS"
+        },
+        {
+          "entity": "East Germany",
+          "code": "OWID_GDR"
+        },
+        {
+          "entity": "Hanover",
+          "code": "OWID_HAN"
+        },
+        {
+          "entity": "Korea (former)",
+          "code": "OWID_KRU"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Hesse-Darmstadt (Ducal)",
+          "code": ""
+        },
+        {
+          "entity": "Hesse-Kassel (Electoral)",
+          "code": ""
+        },
+        {
+          "entity": "Mecklenburg-Schwerin",
+          "code": ""
+        },
+        {
+          "entity": "Papal States",
+          "code": ""
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "support-to-help-to-quit-tobacco-use",
     "title": "Support to help quit smoking",
     "url": "https://ourworldindata.org/grapher/support-to-help-to-quit-tobacco-use",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Support to help quit smoking"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2007",
-        "Support to help quit smoking": "3"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2008",
-        "Support to help quit smoking": "3"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2010",
-        "Support to help quit smoking": "3"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 1728,
+      "geographic-region": 18
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "third-gender-recognition-equaldex",
     "title": "Third gender legally recognized",
     "url": "https://ourworldindata.org/grapher/third-gender-recognition-equaldex",
-    "status": "country-code-data",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Legal recognition of non-binary gender"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2026",
-        "Legal recognition of non-binary gender": "Not legally recognized"
-      },
-      {
-        "Entity": "Albania",
-        "Code": "ALB",
-        "Year": "2026",
-        "Legal recognition of non-binary gender": "Not legally recognized"
-      },
-      {
-        "Entity": "Algeria",
-        "Code": "DZA",
-        "Year": "2026",
-        "Legal recognition of non-binary gender": "Not legally recognized"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 467,
+      "geographic-region": 2
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions."
     ]
   },
   {
     "slug": "trade-as-share-of-gdp",
     "title": "Trade as a share of GDP",
     "url": "https://ourworldindata.org/grapher/trade-as-share-of-gdp",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Trade (% of GDP)"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_EU27",
-      "OWID_HIC",
-      "OWID_KOS",
-      "OWID_LIC",
-      "OWID_LMC",
-      "OWID_UMC",
-      "OWID_WRL",
-      "WB_EAP",
-      "WB_ECA",
-      "WB_LAC",
-      "WB_MENAP",
-      "WB_NA",
-      "WB_SA",
-      "WB_SSA"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2020",
-        "Trade (% of GDP)": "46.709896"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2021",
-        "Trade (% of GDP)": "51.411716"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2022",
-        "Trade (% of GDP)": "72.88547"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 8879,
+      "geographic-region": 568,
+      "statistical-aggregate": 292
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "American Samoa",
+          "code": "ASM"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "East Asia and Pacific (WB)",
+          "code": "WB_EAP"
+        },
+        {
+          "entity": "Europe and Central Asia (WB)",
+          "code": "WB_ECA"
+        },
+        {
+          "entity": "European Union (27)",
+          "code": "OWID_EU27"
+        },
+        {
+          "entity": "Latin America and Caribbean (WB)",
+          "code": "WB_LAC"
+        },
+        {
+          "entity": "Middle East, North Africa, Afghanistan and Pakistan (WB)",
+          "code": "WB_MENAP"
+        },
+        {
+          "entity": "North America (WB)",
+          "code": "WB_NA"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "High-income countries",
+          "code": "OWID_HIC"
+        },
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        },
+        {
+          "entity": "Low-income countries",
+          "code": "OWID_LIC"
+        },
+        {
+          "entity": "Lower-middle-income countries",
+          "code": "OWID_LMC"
+        },
+        {
+          "entity": "Upper-middle-income countries",
+          "code": "OWID_UMC"
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "universal-right-to-vote-in-practice",
     "title": "Universal right to vote in practice",
     "url": "https://ourworldindata.org/grapher/universal-right-to-vote-in-practice",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Universal right to vote in practice"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_AUH",
-      "OWID_CZS",
-      "OWID_DRV",
-      "OWID_DSI",
-      "OWID_GCL",
-      "OWID_GDR",
-      "OWID_GFR",
-      "OWID_HAN",
-      "OWID_KOS",
-      "OWID_KRU",
-      "OWID_MEC",
-      "OWID_OFS",
-      "OWID_PAR",
-      "OWID_RVN",
-      "OWID_SAR",
-      "OWID_SML",
-      "OWID_SRM",
-      "OWID_TSC",
-      "OWID_USS",
-      "OWID_WTB"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1789",
-        "Universal right to vote in practice": "No broad voting rights"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1790",
-        "Universal right to vote in practice": "No broad voting rights"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1791",
-        "Universal right to vote in practice": "No broad voting rights"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 32158,
+      "statistical-aggregate": 1742,
+      "entity-without-code": 1466,
+      "geographic-region": 258
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Austria-Hungary",
+          "code": "OWID_AUH"
+        },
+        {
+          "entity": "Czechoslovakia",
+          "code": "OWID_CZS"
+        },
+        {
+          "entity": "Democratic Republic of Vietnam",
+          "code": "OWID_DRV"
+        },
+        {
+          "entity": "Duchy of Parma and Piacenza",
+          "code": "OWID_PAR"
+        },
+        {
+          "entity": "East Germany",
+          "code": "OWID_GDR"
+        },
+        {
+          "entity": "Grand Duchy of Tuscany",
+          "code": "OWID_TSC"
+        },
+        {
+          "entity": "Great Colombia",
+          "code": "OWID_GCL"
+        },
+        {
+          "entity": "Hanover",
+          "code": "OWID_HAN"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Brunswick",
+          "code": ""
+        },
+        {
+          "entity": "Cape Colony",
+          "code": ""
+        },
+        {
+          "entity": "Duchy of Modena and Reggio",
+          "code": ""
+        },
+        {
+          "entity": "Grand Duchy of Baden",
+          "code": ""
+        },
+        {
+          "entity": "Hamburg",
+          "code": ""
+        },
+        {
+          "entity": "Hesse-Darmstadt",
+          "code": ""
+        },
+        {
+          "entity": "Hesse-Kassel",
+          "code": ""
+        },
+        {
+          "entity": "Kingdom of Bavaria",
+          "code": ""
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "water-basins-cooperation-plan",
     "title": "Percentage of shared water basins managed by international cooperation",
     "url": "https://ourworldindata.org/grapher/water-basins-cooperation-plan",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
@@ -2521,130 +5204,260 @@
       "Aquifers",
       "River and lake basins"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2017",
-        "All basins (rivers, lakes & aquifers)": "",
-        "Aquifers": "",
-        "River and lake basins": "51.69"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2020",
-        "All basins (rivers, lakes & aquifers)": "",
-        "Aquifers": "",
-        "River and lake basins": "51.66"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2023",
-        "All basins (rivers, lakes & aquifers)": "",
-        "Aquifers": "",
-        "River and lake basins": "51.66"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 331,
+      "geographic-region": 3,
+      "statistical-aggregate": 3
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Andorra",
+          "code": "AND"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Austria",
+          "code": "AUT"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "women-and-men-have-equal-rights-to-immovable-property",
     "title": "Women and men have the same rights to own property",
     "url": "https://ourworldindata.org/grapher/women-and-men-have-equal-rights-to-immovable-property",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Women and men have the same rights to own property"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_KOS"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1970",
-        "Women and men have the same rights to own property": "1"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1971",
-        "Women and men have the same rights to own property": "1"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "1972",
-        "Women and men have the same rights to own property": "1"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 10098,
+      "geographic-region": 108,
+      "statistical-aggregate": 54
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Australia",
+          "code": "AUS"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Central African Republic",
+          "code": "CAF"
+        },
+        {
+          "entity": "South Africa",
+          "code": "ZAF"
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Kosovo",
+          "code": "OWID_KOS"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   },
   {
     "slug": "youth-not-in-education-employment-training",
     "title": "Share of young people not in education, employment or training",
     "url": "https://ourworldindata.org/grapher/youth-not-in-education-employment-training",
-    "status": "possible-non-country-geography",
+    "status": "contains-regional-entities",
     "columns": [
       "Entity",
       "Code",
       "Year",
       "Share of youth not in education, employment or training"
     ],
-    "geography_clues": [
-      "geographic-code",
-      "entity-name"
-    ],
-    "unusual_codes": [
-      "OWID_WRL",
-      "UNSDG_ANZ",
-      "UNSDG_CSA",
-      "UNSDG_ENA",
-      "UNSDG_ESEA",
-      "UNSDG_LAC",
-      "UNSDG_NAWA",
-      "UNSDG_OC",
-      "UNSDG_SSA",
-      "UN_AFR",
-      "UN_ASI",
-      "UN_EUR",
-      "UN_LAC",
-      "UN_NAM",
-      "UN_OCE"
-    ],
-    "sample_rows": [
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2014",
-        "Share of youth not in education, employment or training": "35.06"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2017",
-        "Share of youth not in education, employment or training": "42.84"
-      },
-      {
-        "Entity": "Afghanistan",
-        "Code": "AFG",
-        "Year": "2020",
-        "Share of youth not in education, employment or training": "53.76"
-      }
+    "entity_counts": {
+      "iso3-country-or-territory": 2143,
+      "geographic-region": 294,
+      "other-geographic-code": 21,
+      "entity-without-code": 21,
+      "statistical-aggregate": 63
+    },
+    "entity_examples": {
+      "iso3-country-or-territory": [
+        {
+          "entity": "Afghanistan",
+          "code": "AFG"
+        },
+        {
+          "entity": "Albania",
+          "code": "ALB"
+        },
+        {
+          "entity": "Algeria",
+          "code": "DZA"
+        },
+        {
+          "entity": "Angola",
+          "code": "AGO"
+        },
+        {
+          "entity": "Antigua and Barbuda",
+          "code": "ATG"
+        },
+        {
+          "entity": "Argentina",
+          "code": "ARG"
+        },
+        {
+          "entity": "Armenia",
+          "code": "ARM"
+        },
+        {
+          "entity": "Aruba",
+          "code": "ABW"
+        }
+      ],
+      "geographic-region": [
+        {
+          "entity": "Africa (UN)",
+          "code": "UN_AFR"
+        },
+        {
+          "entity": "Asia (UN)",
+          "code": "UN_ASI"
+        },
+        {
+          "entity": "Central and Southern Asia (UN SDG)",
+          "code": "UNSDG_CSA"
+        },
+        {
+          "entity": "Eastern and South-Eastern Asia (UN SDG)",
+          "code": "UNSDG_ESEA"
+        },
+        {
+          "entity": "Europe (UN)",
+          "code": "UN_EUR"
+        },
+        {
+          "entity": "Europe and Northern America (UN SDG)",
+          "code": "UNSDG_ENA"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN SDG)",
+          "code": "UNSDG_LAC"
+        },
+        {
+          "entity": "Latin America and the Caribbean (UN)",
+          "code": "UN_LAC"
+        }
+      ],
+      "other-geographic-code": [
+        {
+          "entity": "Australia and New Zealand (UN SDG)",
+          "code": "UNSDG_ANZ"
+        }
+      ],
+      "entity-without-code": [
+        {
+          "entity": "Developing regions",
+          "code": ""
+        }
+      ],
+      "statistical-aggregate": [
+        {
+          "entity": "Least Developed Countries (LDCs)",
+          "code": ""
+        },
+        {
+          "entity": "Small Island Developing States (SIDS)",
+          "code": ""
+        },
+        {
+          "entity": "World",
+          "code": "OWID_WRL"
+        }
+      ]
+    },
+    "has_latitude_longitude": false,
+    "coordinate_examples": [],
+    "notes": [
+      "Contains entities that appear to be geographic regions.",
+      "Contains statistical aggregates or special entities."
     ]
   }
 ]

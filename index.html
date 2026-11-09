@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Mystery Maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-container">
+    <h1>Daily Mystery Maps</h1>
+    <p>Can you identify the data shown on the map?</p>
+    
+    <div id="scoreboard">
+      <span id="score">Score: 0</span>
+      <span id="progress">Loading maps…</span>
+    </div>
+
+    <p id="challenge-date"></p>
+
+    <div class="map-wrapper">
+      <svg id="map" role="img"
+           aria-label="Mystery map of the world"></svg>
+    </div>
+
+    <p id="map-status" role="status">Loading today's maps…</p>
+
+    <form id="guess-form">
+      <label for="guess">What do you think this map shows?</label>
+      <input id="guess" type="text"
+             placeholder="Type your guess…" autocomplete="off"
+             required>
+      <button type="submit">Submit guess</button>
+    </form>
+
+    <div id="feedback" aria-live="polite"></div>
+
+    <button id="reveal" type="button" class="secondary-btn">
+      Reveal answer
+    </button>
+
+    <button id="next" type="button" class="next-btn">
+      Next map
+    </button>
+
+    <p class="attribution">
+      Data: Our World in Data. Map shapes: Natural Earth.
+      <a href="https://ourworldindata.org/" target="_blank"
+         rel="noopener noreferrer">Explore the data</a>
+    </p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

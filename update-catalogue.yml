@@ -1,0 +1,38 @@
+
+name: Update OWID map catalogue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalogue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build catalogue
+        run: python scripts/build_catalogue.py
+
+      - name: Commit catalogue if changed
+        run: |
+          git add catalogue.json
+          if git diff --cached --quiet; then
+            echo "Catalogue has not changed."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update OWID map catalogue"
+            git push
+          fi

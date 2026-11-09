@@ -205,6 +205,7 @@ async function fetchMapData(item) {
   };
 }
 
+
 function drawMap(mapData) {
   const wrapper = document.querySelector(".map-wrapper");
   const width = wrapper.clientWidth;
@@ -228,30 +229,71 @@ function drawMap(mapData) {
 
   const path = d3.geoPath(projection);
 
-  // Use country ISO codes to match geography with OWID data.
-  const color = d3.scaleSequential()
-    .interpolator(d3.interpolateBlues);
-
-  const availableValues = worldFeatures
-    .map(feature => getCountryValue(feature, mapData))
-    .filter(value => value !== null);
-
-  if (availableValues.length) {
-    color.domain(d3.extent(availableValues));
-  }
-
+  // Draw the country outlines as the background.
   mapElement.selectAll("path")
     .data(worldFeatures)
     .join("path")
     .attr("d", path)
-    .attr("fill", feature => {
-      const value = getCountryValue(feature, mapData);
-      return value === null ? "#e2e7ec" : color(value);
-    })
+    .attr("fill", "#e2e7ec")
     .attr("stroke", "#ffffff")
-    .attr("stroke-width", 0.45)
-    .append("title")
-    .text(() => "Country");
+    .attr("stroke-width", 0.45);
+
+  // Find records with valid geographic coordinates.
+  const locationRecords = (mapData.records || []).filter(record =>
+    Number.isFinite(record.latitude) &&
+    Number.isFinite(record.longitude) &&
+    record.latitude >= -90 &&
+    record.latitude <= 90 &&
+    record.longitude >= -180 &&
+    record.longitude <= 180
+  );
+
+  // LOCATION MAP: draw circles at latitude and longitude.
+  if (locationRecords.length > 0) {
+    const color = d3.scaleSequential()
+      .domain(d3.extent(locationRecords, record => record.value))
+      .interpolator(d3.interpolateYlOrRd);
+
+    mapElement.selectAll("circle")
+      .data(locationRecords)
+      .join("circle")
+      .attr("cx", record =>
+        projection([record.longitude, record.latitude])[0]
+      )
+      .attr("cy", record =>
+        projection([record.longitude, record.latitude])[1]
+      )
+      .attr("r", 5)
+      .attr("fill", record => color(record.value))
+      .attr("fill-opacity", 0.8)
+      .attr("stroke", "#ffffff")
+      .attr("stroke-width", 0.7)
+      .append("title")
+      .text(record =>
+        `${record.entity || "Location"}: ${record.value}`
+      );
+
+  } else {
+    // COUNTRY HEATMAP: retain the original country colouring.
+    const color = d3.scaleSequential()
+      .interpolator(d3.interpolateBlues);
+
+    const availableValues = worldFeatures
+      .map(feature => getCountryValue(feature, mapData))
+      .filter(value => value !== null);
+
+    if (availableValues.length) {
+      color.domain(d3.extent(availableValues));
+    }
+
+    mapElement.selectAll("path")
+      .attr("fill", feature => {
+        const value = getCountryValue(feature, mapData);
+        return value === null ? "#e2e7ec" : color(value);
+      })
+      .append("title")
+      .text("Country");
+  }
 
   document.getElementById("map-status").textContent =
     "Mystery map " + (currentIndex + 1) + " of " + maps.length;

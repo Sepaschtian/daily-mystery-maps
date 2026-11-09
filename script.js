@@ -48,6 +48,7 @@ function deterministicShuffle(items, dateKey) {
 
 const mapElement = d3.select("#map");
 
+
 async function fetchMapData(item) {
   const base = `https://ourworldindata.org/grapher/${item.slug}`;
 
@@ -69,33 +70,123 @@ async function fetchMapData(item) {
   }
 
   const columns = rows.columns;
+
+  // Identify the columns containing geographic coordinates, if present.
+  const findColumn = (names) =>
+    columns.find(column =>
+      names.includes(column.trim().toLowerCase())
+    );
+
+  const latitudeColumn = findColumn(["latitude", "lat"]);
+  const longitudeColumn = findColumn(["longitude", "lon", "lng"]);
+
+  // These columns describe the location or date, not the measured value.
+  const dimensionColumns = [
+    "entity", "code", "year", "day", "month", "date",
+    "latitude", "longitude", "lat", "lon", "lng"
+  ];
+
   const valueColumn = columns.find(
-    column => !["Entity", "Code", "Year", "Day"].includes(column)
+    column =>
+      !dimensionColumns.includes(column.trim().toLowerCase())
   );
 
-  if (!valueColumn || !columns.includes("Code")) {
-    throw new Error(`Unexpected data format for ${item.slug}`);
+  if (!valueColumn) {
+    throw new Error(`Could not identify a data column for ${item.slug}`);
   }
 
-  // Keep the most recent available observation for each country.
-  const latestByCountry = new Map();
+  // Convert a value to a number, while rejecting empty cells.
+  function toNumber(value) {
+    if (value === "" || value === null || value === undefined) {
+      return null;
+    }
+
+    const number = Number(value);
+    return Number.isFinite(number) ? number : null;
+  }
+
+  // Keep the latest observation for each geographic entity.
+  const latestByEntity = new Map();
 
   for (const row of rows) {
-    const code = row.Code;
-    const value = Number(row[valueColumn]);
+    const value = toNumber(row[valueColumn]);
 
-    if (!code || code.startsWith("OWID_") || !Number.isFinite(value)) {
+    if (value === null) {
       continue;
     }
 
-    const date = row.Year || row.Day || "";
+    const entity = row.Entity || row.Code;
 
-    if (
-      !latestByCountry.has(code) ||
-      date > latestByCountry.get(code).date
-    ) {
-      latestByCountry.set(code, { value, date });
+    if (!entity) {
+      continue;
     }
+
+    const date = row.Year || row.Day || row.Date || "";
+
+    const latitude = latitudeColumn
+      ? toNumber(row[latitudeColumn])
+      : null;
+
+    const longitude = longitudeColumn
+      ? toNumber(row[longitudeColumn])
+      : null;
+
+    const existing = latestByEntity.get(entity);
+
+    if (!existing || date > existing.date) {
+      latestByEntity.set(entity, {
+        entity: row.Entity || "",
+        code: row.Code || "",
+        value,
+        date,
+        latitude,
+        longitude
+      });
+    }
+  }
+
+  const records = [...latestByEntity.values()];
+
+  // Keep ISO-style three-letter codes for the existing country map.
+  const countryValues = new Map();
+
+  for (const record of records) {
+    const code = record.code.toUpperCase();
+
+    if (/^[A-Z]{3}$/.test(code)) {
+      countryValues.set(code, record.value);
+    }
+  }
+
+  // Work out what kind of geographic information this chart contains.
+  const hasCoordinates = records.some(
+    record =>
+      record.latitude !== null &&
+      record.longitude !== null &&
+      record.latitude >= -90 &&
+      record.latitude <= 90 &&
+      record.longitude >= -180 &&
+      record.longitude <= 180
+  );
+
+  const hasCountryCodes = countryValues.size > 0;
+
+  const hasOtherCodes = records.some(
+    record =>
+      record.code &&
+      !/^[A-Z]{3}$/.test(record.code)
+  );
+
+  let geographyType = "entity-only";
+
+  if (hasCoordinates && (hasCountryCodes || hasOtherCodes)) {
+    geographyType = "mixed";
+  } else if (hasCoordinates) {
+    geographyType = "point";
+  } else if (hasCountryCodes) {
+    geographyType = "country";
+  } else if (hasOtherCodes) {
+    geographyType = "regional-or-coded";
   }
 
   const columnMetadata = metadata.columns?.[valueColumn] || {};
@@ -108,9 +199,9 @@ async function fetchMapData(item) {
       item.title ||
       item.slug,
     source: columnMetadata.citationShort || "Our World in Data",
-    values: new Map(
-      [...latestByCountry].map(([code, entry]) => [code, entry.value])
-    )
+    geographyType,
+    records,
+    values: countryValues
   };
 }
 

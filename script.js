@@ -1,26 +1,4 @@
 
-const MAP_CATALOGUE = [
-  {
-    slug: "life-expectancy",
-    aliases: ["life expectancy", "lifespan", "how long people live"]
-  },
-  {
-    slug: "population-density",
-    aliases: ["population density", "people per area"]
-  },
-  {
-    slug: "co2-emissions-per-capita",
-    aliases: ["co2 emissions per capita", "carbon emissions per person"]
-  },
-  {
-    slug: "gdp-per-capita-worldbank",
-    aliases: ["gdp per capita", "income per person", "economic output per person"]
-  },
-  {
-    slug: "share-of-individuals-using-the-internet",
-    aliases: ["internet use", "internet usage", "internet users"]
-  }
-];
 
 const GEOJSON_URL =
   "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson";
@@ -124,7 +102,11 @@ async function fetchMapData(item) {
 
   return {
     ...item,
-    title: metadata.chart?.title || columnMetadata.titleShort || item.slug,
+    aliases: item.aliases || [],
+    title: metadata.chart?.title ||
+      columnMetadata.titleShort ||
+      item.title ||
+      item.slug,
     source: columnMetadata.citationShort || "Our World in Data",
     values: new Map(
       [...latestByCountry].map(([code, entry]) => [code, entry.value])
@@ -300,6 +282,7 @@ function nextMap() {
   updateScore();
 }
 
+
 async function startGame() {
   try {
     challengeDate = getUtcDateKey();
@@ -308,8 +291,9 @@ async function startGame() {
       `Daily Challenge · ${challengeDate} (UTC)`;
 
     document.getElementById("map-status").textContent =
-      "Loading map data…";
+      "Loading today's maps…";
 
+    // Load the world map shapes.
     const geoResponse = await fetch(GEOJSON_URL);
 
     if (!geoResponse.ok) {
@@ -319,39 +303,66 @@ async function startGame() {
     const geojson = await geoResponse.json();
     worldFeatures = geojson.features;
 
-    const results = await Promise.allSettled(
-      MAP_CATALOGUE.map(fetchMapData)
+    // Load the automatically generated OWID catalogue.
+    const catalogueResponse = await fetch("./catalogue.json");
+
+    if (!catalogueResponse.ok) {
+      throw new Error("Could not load the OWID catalogue.");
+    }
+
+    const catalogue = await catalogueResponse.json();
+
+    if (!Array.isArray(catalogue) || catalogue.length < 5) {
+      throw new Error("The catalogue contains fewer than five maps.");
+    }
+
+    console.log("Available OWID maps:", catalogue.length);
+
+    // Choose a repeatable order for today's maps.
+    const candidates = deterministicShuffle(
+      catalogue,
+      challengeDate
     );
 
-    maps = results
-      .filter(result => result.status === "fulfilled")
-      .map(result => result.value);
+    maps = [];
 
-    
-  if (maps.length < 5) {
-    throw new Error(
-      `Only ${maps.length} maps loaded successfully. ` +
-      "Five maps are required for the daily challenge."
-    );
-}
+    // Load indicators one by one, stopping after five work.
+    for (const item of candidates) {
+      try {
+        const mapData = await fetchMapData(item);
+        maps.push(mapData);
 
-  if (maps.length < MAP_CATALOGUE.length) {
-    console.warn("Some indicators could not be loaded:", results);
-  }
+        console.log("Loaded map:", mapData.title);
 
-  // Deterministically select and order today's five maps.
-  maps = deterministicShuffle(maps, challengeDate).slice(0, 5);
+        if (maps.length === 5) {
+          break;
+        }
+      } catch (error) {
+        console.warn("Skipping unavailable map:", item.slug, error);
+      }
+    }
 
+    if (maps.length < 5) {
+      throw new Error(
+        `Only ${maps.length} usable maps could be loaded.`
+      );
+    }
+
+    currentIndex = 0;
+    score = 0;
+    answered = false;
 
     document.getElementById("map-status").textContent = "";
+
     drawMap(maps[currentIndex]);
     updateScore();
+
   } catch (error) {
     console.error(error);
 
     document.getElementById("map-status").textContent =
       "We couldn't load the maps. Check your internet connection " +
-      "and the browser console, then try refreshing.";
+      "and try refreshing.";
   }
 }
 

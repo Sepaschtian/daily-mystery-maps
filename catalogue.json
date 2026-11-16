@@ -77,7 +77,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -88,7 +88,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -370,18 +370,6 @@
     ]
   },
   {
-    "slug": "agricultural-output-dollars",
-    "title": "Agricultural output",
-    "subtitle": "Total agricultural output is the sum of crop and livestock products. This data is expressed in US dollars. It is adjusted for inflation but does not account for differences in living costs between countries.",
-    "url": "https://ourworldindata.org/grapher/agricultural-output-dollars",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "agricultural-water-as-a-share-of-total-water-withdrawals",
     "title": "Agricultural water as a share of total water withdrawals",
     "subtitle": "Agricultural water withdrawals as a percentage of total water withdrawals (which is the sum of water used for agriculture, industry and domestic purposes). Agricultural water is defined as the annual quantity of self-supplied water withdrawn for irrigation, livestock and aquaculture purposes.",
@@ -517,18 +505,6 @@
     "title": "The disease burden from alcohol use disorders",
     "subtitle": "Age-standardized DALYs (Disability-Adjusted Life Years) from alcohol use disorders per 100,000 individuals.\nDALYs are used to measure total burden of disease – both from years of life lost due to premature death and years lived with a disability. One DALY equals one lost year of healthy life.",
     "url": "https://ourworldindata.org/grapher/alcohol-disorders-dalys-age-standardized-rate",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "alcohol-drug-use-disorders-share-total-disease",
-    "title": "Alcohol and drug use disorders as a share of total disease burden",
-    "subtitle": "Disease burden is measured in Disability-Adjusted Life Years (DALYs) – both from years of life lost due to premature death and years lived with a disability. One DALY equals one year of healthy life.",
-    "url": "https://ourworldindata.org/grapher/alcohol-drug-use-disorders-share-total-disease",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -689,18 +665,6 @@
     ]
   },
   {
-    "slug": "annual-co2-including-land-use",
-    "title": "Annual CO₂ emissions including land-use change",
-    "subtitle": "Emissions include those from fossil fuels and industry, and land-use change. They are measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/annual-co2-including-land-use",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "annual-co2-oil",
     "title": "Annual CO₂ emissions from oil",
     "subtitle": "",
@@ -756,17 +720,6 @@
       "Table",
       "WorldMap",
       "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "annual-number-of-fires",
-    "title": "Annual number of wildfires",
-    "subtitle": "",
-    "url": "https://ourworldindata.org/grapher/annual-number-of-fires",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "StackedBar"
     ]
   },
   {
@@ -1070,7 +1023,8 @@
     "url": "https://ourworldindata.org/grapher/availability-of-unemployment-estimates-by-source-ilo",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -1124,18 +1078,6 @@
     ]
   },
   {
-    "slug": "average-height-of-men-by-year-of-birth",
-    "title": "Average height of men by year of birth",
-    "subtitle": "",
-    "url": "https://ourworldindata.org/grapher/average-height-of-men-by-year-of-birth",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "average-height-of-men-for-selected-countries",
     "title": "Average height of men by decade of birth",
     "subtitle": "",
@@ -1185,16 +1127,6 @@
     ]
   },
   {
-    "slug": "average-per-capita-vegetable-intake-vs-minimum-recommended-guidelines",
-    "title": "Average per capita vegetable intake vs. minimum recommended guidelines",
-    "subtitle": "Countries shown in pink have an average per capita intake below 250g per person per day; countries in green are greater than 250g. National and World Health Organization (WHO) recommendations tend to range between 200-250g per day.",
-    "url": "https://ourworldindata.org/grapher/average-per-capita-vegetable-intake-vs-minimum-recommended-guidelines",
-    "availableTabs": [
-      "Table",
-      "WorldMap"
-    ]
-  },
-  {
     "slug": "average-precipitation-per-year",
     "title": "Annual precipitation",
     "subtitle": "Total annual precipitation — rain and snow — calculated as the sum of daily averages, reported as the depth of water falling to Earth's surface, excluding fog and dew.",
@@ -1225,30 +1157,6 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "avocado-production",
-    "title": "Avocado production",
-    "subtitle": "Measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/avocado-production",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "banana-production",
-    "title": "Banana production",
-    "subtitle": "",
-    "url": "https://ourworldindata.org/grapher/banana-production",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
       "DiscreteBar"
     ]
   },
@@ -1497,18 +1405,6 @@
     ]
   },
   {
-    "slug": "burden-of-disease",
-    "title": "Burden of disease",
-    "subtitle": "Disability-Adjusted Life Years (DALYs) per 100,000 individuals from all causes. DALYs measure the total burden of disease – both from years of life lost due to premature death and years lived with a disability. One DALY equals one lost year of healthy life.",
-    "url": "https://ourworldindata.org/grapher/burden-of-disease",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "burden-of-disease-rates-from-communicable-neonatal-maternal-nutritional-diseases",
     "title": "DALY rates from communicable, neonatal, maternal & nutritional diseases",
     "subtitle": "Age-standardized DALY (Disability-Adjusted Life Year) rates per 100,000 individuals from communicable diseases. DALYs are used to measure total burden of disease - both from years of life lost and years lived with a disability. One DALY equals one lost year of healthy life.",
@@ -1714,8 +1610,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart",
-      "DiscreteBar"
+      "Swimlane"
     ]
   },
   {
@@ -1865,18 +1760,6 @@
     "title": "Residential areas: How did the time spent at home change relative to before the pandemic?",
     "subtitle": "This data shows how the number of visitors to residential areas has changed relative to the period before the pandemic.",
     "url": "https://ourworldindata.org/grapher/changes-residential-duration-covid",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "chicken-meat-production",
-    "title": "Chicken meat production",
-    "subtitle": "Chicken meat production is measured in tonnes per year.",
-    "url": "https://ourworldindata.org/grapher/chicken-meat-production",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -2187,10 +2070,10 @@
     ]
   },
   {
-    "slug": "co2-emissions-transport",
-    "title": "CO₂ emissions from transport",
-    "subtitle": "Emissions are measured in tonnes. Domestic aviation and shipping emissions are included at the national level. International aviation and shipping emissions are included only at the global level.",
-    "url": "https://ourworldindata.org/grapher/co2-emissions-transport",
+    "slug": "co2-intensity",
+    "title": "Carbon intensity: CO₂ emissions per dollar of GDP",
+    "subtitle": "Kilograms of CO₂ emitted per dollar of GDP. Fossil fuel and industry emissions are included. Land-use change emissions are not included. GDP data is adjusted for inflation and differences in living costs between countries.",
+    "url": "https://ourworldindata.org/grapher/co2-intensity",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -2199,10 +2082,10 @@
     ]
   },
   {
-    "slug": "co2-intensity",
-    "title": "Carbon intensity: CO₂ emissions per dollar of GDP",
-    "subtitle": "Kilograms of CO₂ emitted per dollar of GDP. Fossil fuel and industry emissions are included. Land-use change emissions are not included. GDP data is adjusted for inflation and differences in living costs between countries.",
-    "url": "https://ourworldindata.org/grapher/co2-intensity",
+    "slug": "co2-land-use",
+    "title": "Annual CO₂ emissions from land-use change",
+    "subtitle": "Emissions from land-use change can be positive or negative depending on whether these changes emit (positive) or sequester (negative) carbon.",
+    "url": "https://ourworldindata.org/grapher/co2-land-use",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -2312,7 +2195,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -2382,16 +2265,6 @@
       "WorldMap",
       "LineChart",
       "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "consumption-co2-per-capita-equity",
-    "title": "Are consumption-based CO₂ per capita emissions above or below the global average?",
-    "subtitle": "Consumption-based emissions are national emissions that have been adjusted for trade. This map denotes whether a country's average per capita emissions are above or below the value of global per capita emissions.",
-    "url": "https://ourworldindata.org/grapher/consumption-co2-per-capita-equity",
-    "availableTabs": [
-      "Table",
-      "WorldMap"
     ]
   },
   {
@@ -2507,7 +2380,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -2517,7 +2390,8 @@
     "url": "https://ourworldindata.org/grapher/countries-with-independent-national-human-rights-institution",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -2548,8 +2422,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart",
-      "DiscreteBar"
+      "Swimlane"
     ]
   },
   {
@@ -2560,8 +2433,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart",
-      "DiscreteBar"
+      "Swimlane"
     ]
   },
   {
@@ -2572,7 +2444,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -2602,7 +2474,8 @@
     "url": "https://ourworldindata.org/grapher/countrys-top-destination-for-exports-of-goods",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -2612,7 +2485,8 @@
     "url": "https://ourworldindata.org/grapher/countrys-top-source-of-imported-goods",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -2779,18 +2653,6 @@
     "title": "Cumulative CO₂ emissions",
     "subtitle": "Running sum of CO₂ emissions produced from fossil fuels and industry since the first year of recording, measured in tonnes. Land-use change emissions are not included.",
     "url": "https://ourworldindata.org/grapher/cumulative-co-emissions",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "cumulative-covid-vaccinations",
-    "title": "Total COVID-19 vaccine doses administered",
-    "subtitle": "All doses, including boosters, are counted individually.",
-    "url": "https://ourworldindata.org/grapher/cumulative-covid-vaccinations",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -3697,7 +3559,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -3968,7 +3830,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -3993,7 +3855,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -4205,7 +4067,8 @@
     "url": "https://ourworldindata.org/grapher/european-overseas-colonies-and-their-colonizers",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -4324,19 +4187,6 @@
       "Dumbbell",
       "SlopeChart",
       "Marimekko"
-    ]
-  },
-  {
-    "slug": "expected-years-of-living-with-disability-or-disease-burden",
-    "title": "Average number of years living with disability or disease",
-    "subtitle": "The estimated average number of years lived with disability or disease. This is the difference between period life expectancy and the average number of years lived in “full health”.",
-    "url": "https://ourworldindata.org/grapher/expected-years-of-living-with-disability-or-disease-burden",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar",
-      "ScatterPlot"
     ]
   },
   {
@@ -4950,46 +4800,10 @@
     ]
   },
   {
-    "slug": "fruit-consumption-per-capita",
-    "title": "Fruit consumption per capita",
-    "subtitle": "Average fruit consumption per person, measured in kilograms per year.",
-    "url": "https://ourworldindata.org/grapher/fruit-consumption-per-capita",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "future-life-expectancy-projections",
-    "title": "Life expectancy at birth, projections",
-    "subtitle": "The period life expectancy is the age to which a newborn can expect to live, if age-specific mortality rates in the current year were to stay the same throughout their life. Future projections are based on the UN's medium scenario.",
-    "url": "https://ourworldindata.org/grapher/future-life-expectancy-projections",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "gdp-maddison-project-database",
     "title": "Gross domestic product (GDP)",
     "subtitle": "This data is adjusted for inflation and differences in living costs between countries.",
     "url": "https://ourworldindata.org/grapher/gdp-maddison-project-database",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "gdp-penn-world-table",
-    "title": "Gross domestic product (GDP)",
-    "subtitle": "This data is adjusted for inflation and differences in living costs between countries.",
-    "url": "https://ourworldindata.org/grapher/gdp-penn-world-table",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -5067,18 +4881,6 @@
     "title": "GDP per capita",
     "subtitle": "This data is expressed in US dollars. It is adjusted for inflation but does not account for differences in living costs between countries.",
     "url": "https://ourworldindata.org/grapher/gdp-per-capita-worldbank-constant-usd",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "gdp-per-person-employed-constant-ppp",
-    "title": "GDP per employed person",
-    "subtitle": "Gross domestic product (GDP) divided by the total number of people employed in the economy. This data is adjusted for inflation and differences in living costs between countries.",
-    "url": "https://ourworldindata.org/grapher/gdp-per-person-employed-constant-ppp",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -5188,7 +4990,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -5199,7 +5001,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -5210,7 +5012,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -5257,18 +5059,6 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "global-hunger-index",
-    "title": "Global Hunger Index",
-    "subtitle": "The Global Hunger Index tries to capture the multidimensional nature of hunger by calculating an index score from four key hunger indicators. It is measured on a 100-point scale where 0 is the best score (no hunger) and 100 is the worst.",
-    "url": "https://ourworldindata.org/grapher/global-hunger-index",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
       "DiscreteBar"
     ]
   },
@@ -5435,18 +5225,6 @@
     "availableTabs": [
       "Table",
       "WorldMap"
-    ]
-  },
-  {
-    "slug": "healthcare-access-quality-un",
-    "title": "Coverage of essential health services",
-    "subtitle": "Coverage of essential health services is measured as an index on a scale of 0 to 100 (where higher is better). This index is based on risk-standardized death rates – which give a measure of healthcare access and quality – and whether common interventions are carried out.",
-    "url": "https://ourworldindata.org/grapher/healthcare-access-quality-un",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
     ]
   },
   {
@@ -5850,17 +5628,6 @@
     ]
   },
   {
-    "slug": "income-share-top-1-before-tax-wid-extrapolations",
-    "title": "Income share of the richest 1% (before tax)",
-    "subtitle": "The share of income received by the richest 1% of the population. Income here is measured before taxes and benefits. The dotted lines represent extrapolations due to limited data availability.",
-    "url": "https://ourworldindata.org/grapher/income-share-top-1-before-tax-wid-extrapolations",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart"
-    ]
-  },
-  {
     "slug": "income-small-scale-food-producers",
     "title": "Average income of small-scale food producers",
     "subtitle": "This data is adjusted for inflation and differences in living costs between countries. In some countries small-scale food producers are running at a loss, this is reflected as a negative income.",
@@ -6085,7 +5852,7 @@
   {
     "slug": "intensity-of-multidimensional-poverty",
     "title": "Intensity of multidimensional poverty",
-    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The intensity is the share of indicators in which people in multidimensional poverty are deprived on average.",
+    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The intensity is the share of weighted indicators in which people in multidimensional poverty are deprived on average. Estimates based on the most recent household survey data.",
     "url": "https://ourworldindata.org/grapher/intensity-of-multidimensional-poverty",
     "availableTabs": [
       "Table",
@@ -6323,18 +6090,6 @@
     ]
   },
   {
-    "slug": "landline-internet-subscriptions",
-    "title": "Landline Internet subscriptions",
-    "subtitle": "Subscriptions to fixed access to the public Internet with a download speed of at least 256 kbit/s.",
-    "url": "https://ourworldindata.org/grapher/landline-internet-subscriptions",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "large-household-expenditures-health",
     "title": "Share of population with very large health spending",
     "subtitle": "The share of the population that spend more than 25% of total household expenditure or income on health.",
@@ -6348,12 +6103,13 @@
   },
   {
     "slug": "law-mandate-nondiscrimination-hiring",
-    "title": "Employment discrimination based on gender prohibited",
-    "subtitle": "The law prohibits employers from discriminating based on sex or gender, or mandates equal treatment of women and men in employment.",
+    "title": "Does the law ban gender discrimination in employment?",
+    "subtitle": "“Yes” means the law bans employers from discriminating against workers based on their sex or gender, or requires them to treat women and men equally.",
     "url": "https://ourworldindata.org/grapher/law-mandate-nondiscrimination-hiring",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -6509,12 +6265,13 @@
   },
   {
     "slug": "legislation-domestic-violence",
-    "title": "Legislation on domestic violence",
-    "subtitle": "The law on domestic violence may punish offenders, provide protection orders for victims, or address harassment that causes physical or mental harm.",
+    "title": "Is there a law specifically on domestic violence?",
+    "subtitle": "“Yes” means a law specifically on domestic violence sets criminal penalties for it or lets victims get protection orders.",
     "url": "https://ourworldindata.org/grapher/legislation-domestic-violence",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -6589,6 +6346,17 @@
       "Dumbbell",
       "SlopeChart",
       "Marimekko"
+    ]
+  },
+  {
+    "slug": "liberal-democracy-row",
+    "title": "Liberal democracy",
+    "subtitle": "Classification by Lührmann et al. (2018) based on expert estimates by V-Dem. Liberal democracies are political systems that hold meaningful, free and fair, and multi-party elections, and their citizens have further individual rights, are equal before the law, and the legislative and the courts constrain the executive.",
+    "url": "https://ourworldindata.org/grapher/liberal-democracy-row",
+    "availableTabs": [
+      "Table",
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -6716,7 +6484,7 @@
   {
     "slug": "living-languages",
     "title": "Living languages",
-    "subtitle": "A living language has at least one person speaking it as their first language.",
+    "subtitle": "A living language is one that is not extinct, meaning it is still in use or an ethnic community still identifies with it.",
     "url": "https://ourworldindata.org/grapher/living-languages",
     "availableTabs": [
       "Table",
@@ -6743,17 +6511,6 @@
     "availableTabs": [
       "Table",
       "WorldMap"
-    ]
-  },
-  {
-    "slug": "locations-of-ongoing-armed-conflicts",
-    "title": "Countries where armed conflicts took place",
-    "subtitle": "Included are armed conflicts that caused at least one death in the country that year.",
-    "url": "https://ourworldindata.org/grapher/locations-of-ongoing-armed-conflicts",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart"
     ]
   },
   {
@@ -6809,18 +6566,6 @@
     "title": "Farm machinery per unit of agricultural land",
     "subtitle": "Farm machinery is measured in units of horsepower. This is divided by total agricultural land to give the average machinery use per hectare of agricultural land.",
     "url": "https://ourworldindata.org/grapher/machinery-per-agricultural-land",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "maize-production",
-    "title": "Corn production",
-    "subtitle": "Corn (maize) production is measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/maize-production",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -7108,19 +6853,6 @@
     ]
   },
   {
-    "slug": "median-income-after-tax-lis",
-    "title": "Median income per year (after tax)",
-    "subtitle": "This data is adjusted for inflation and differences in living costs between countries. Income here is measured after taxes and benefits.",
-    "url": "https://ourworldindata.org/grapher/median-income-after-tax-lis",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar",
-      "SlopeChart"
-    ]
-  },
-  {
     "slug": "medium-high-level-implementation-of-sustainable-public-procurement",
     "title": "Level of implementation of sustainable procurement policies and  plans",
     "subtitle": "Evaluation of a country’s sustainable public procurement implementation level, scope, and comprehensiveness is scored based on six parameters. These parameters consider the existence of regulatory frameworks, implementation support, monitoring, and the share of products and services purchased sustainably.",
@@ -7358,18 +7090,6 @@
     ]
   },
   {
-    "slug": "mobile-cellular-subscriptions-by-country",
-    "title": "Mobile phone subscriptions",
-    "subtitle": "",
-    "url": "https://ourworldindata.org/grapher/mobile-cellular-subscriptions-by-country",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "mobile-cellular-subscriptions-per-100-people",
     "title": "Mobile phone subscriptions per 100 people",
     "subtitle": "This number can get over 100 when the average person has more than one subscription to a mobile service.",
@@ -7486,7 +7206,7 @@
   {
     "slug": "multidimensional-poverty-index-mpi",
     "title": "Multidimensional Poverty Index (MPI)",
-    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The MPI is a measure that combines the prevalence and the intensity of multidimensional poverty on a scale from 0 to 1. Higher values indicate higher poverty.",
+    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. The MPI is a measure that combines the prevalence and the intensity of multidimensional poverty on a scale from 0 to 1. Higher values indicate higher poverty. Estimates based on the most recent household survey data.",
     "url": "https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi",
     "availableTabs": [
       "Table",
@@ -7594,18 +7314,6 @@
     ]
   },
   {
-    "slug": "natural-resource-rents",
-    "title": "Total natural resource rents",
-    "subtitle": "Natural resources rents are estimated as the difference between the price of a commodity and the average cost of producing it. Total natural resources rents are the sum of oil rents, natural gas rents, coal rents, mineral rents, and forest rents.",
-    "url": "https://ourworldindata.org/grapher/natural-resource-rents",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "neighbors-different-religion",
     "title": "Share who say they would not want neighbors of a different religion",
     "subtitle": "Share of survey respondents who selected \"neighbors of a different religion\" when they were asked: \"On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?\"",
@@ -7639,16 +7347,6 @@
       "WorldMap",
       "LineChart",
       "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "net-zero-targets",
-    "title": "Status of net-zero carbon emissions targets",
-    "subtitle": "The inclusion criteria for net-zero commitments may vary from country to country. For example, the inclusion of international aviation emissions; or the acceptance of carbon offsets. To see the year for which countries have pledged to achieve net-zero, hover over the country in the interactive version of this chart.",
-    "url": "https://ourworldindata.org/grapher/net-zero-targets",
-    "availableTabs": [
-      "Table",
-      "WorldMap"
     ]
   },
   {
@@ -8330,18 +8028,6 @@
     "title": "Nurses and midwives per 1,000 people",
     "subtitle": "",
     "url": "https://ourworldindata.org/grapher/nurses-and-midwives-per-1000-people",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "obesity-prevalence-adults-who-gho",
-    "title": "Prevalence rate of obesity in adults",
-    "subtitle": "Estimated prevalence of obesity in adults, based on general population surveys and statistical modeling. Obesity is a risk factor for chronic complications, including cardiovascular disease, and premature death.",
-    "url": "https://ourworldindata.org/grapher/obesity-prevalence-adults-who-gho",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -9102,20 +8788,6 @@
     ]
   },
   {
-    "slug": "political-centralization-index",
-    "title": "Centralization of Political Power Index",
-    "subtitle": "Data by V-Dem. Expert estimates of the extent to which the executive is unconstrained by the legislature, judiciary, electoral management body, and other oversight bodies. The index ranges from 0 to 1 (most centralized).",
-    "url": "https://ourworldindata.org/grapher/political-centralization-index",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar",
-      "SlopeChart",
-      "Marimekko"
-    ]
-  },
-  {
     "slug": "political-civil-liberties-index",
     "title": "Political Civil Liberties Index",
     "subtitle": "Data by V-Dem. Expert estimates of the extent to which people enjoy freedom of expression and association. The index ranges from 0 to 1 (most liberties).",
@@ -9165,18 +8837,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
-    ]
-  },
-  {
-    "slug": "political-regime-eiu",
-    "title": "Democracy",
-    "subtitle": "Data by the Economist Intelligence Unit.",
-    "url": "https://ourworldindata.org/grapher/political-regime-eiu",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -9187,18 +8848,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
-    ]
-  },
-  {
-    "slug": "political-regime-ert-within-regimes",
-    "title": "Democracy",
-    "subtitle": "Data by Episodes of Regime Transformation and V-Dem.",
-    "url": "https://ourworldindata.org/grapher/political-regime-ert-within-regimes",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -9209,7 +8859,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -9243,8 +8893,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart",
-      "DiscreteBar"
+      "Swimlane"
     ]
   },
   {
@@ -9254,7 +8903,8 @@
     "url": "https://ourworldindata.org/grapher/population-census-world-bank",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -9323,8 +8973,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart",
-      "DiscreteBar"
+      "Swimlane"
     ]
   },
   {
@@ -9380,18 +9029,6 @@
     "title": "The share of COVID-19 tests that are positive",
     "subtitle": "DEPRECATED CHART. 7-day rolling average. Comparisons across countries are affected by differences in testing policies and reporting methods.",
     "url": "https://ourworldindata.org/grapher/positive-rate-daily-smoothed",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "potato-production",
-    "title": "Potato production",
-    "subtitle": "Potato production is measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/potato-production",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -9970,7 +9607,7 @@
   {
     "slug": "psychiatrists-working-in-the-mental-health-sector",
     "title": "Psychiatrists per 100,000 people",
-    "subtitle": "The number of psychiatrists per 100,000 people in the population.",
+    "subtitle": "Number of psychiatrists per 100,000 people in the population.",
     "url": "https://ourworldindata.org/grapher/psychiatrists-working-in-the-mental-health-sector",
     "availableTabs": [
       "Table",
@@ -10009,7 +9646,8 @@
     "url": "https://ourworldindata.org/grapher/public-morality-laws-on-non-traditional-sexual-relations",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -10324,18 +9962,6 @@
     ]
   },
   {
-    "slug": "replacement-fertility-rate",
-    "title": "Replacement-level fertility rate",
-    "subtitle": "The replacement-level fertility rate (the total fertility rate needed to keep the population size stable over time, without migration) is commonly stated to be 2.1. But the level can vary based on the sex ratio, child mortality rates, and other factors.",
-    "url": "https://ourworldindata.org/grapher/replacement-fertility-rate",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "reported-cases-of-measles",
     "title": "Reported cases of measles",
     "subtitle": "",
@@ -10468,7 +10094,7 @@
   {
     "slug": "right-to-change-legal-gender-equaldex",
     "title": "Gender marker can be legally changed",
-    "subtitle": "Possibility of changing one's gender in official national documents.",
+    "subtitle": "Whether people can legally change their gender on official identity documents (such as passports) and what the change requires.",
     "url": "https://ourworldindata.org/grapher/right-to-change-legal-gender-equaldex",
     "availableTabs": [
       "Table",
@@ -10625,7 +10251,8 @@
     "url": "https://ourworldindata.org/grapher/same-sex-sexual-acts-legal-mignot",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -10978,20 +10605,9 @@
     ]
   },
   {
-    "slug": "share-europe-using-generative-ai",
-    "title": "Share of people in European countries using generative AI tools",
-    "subtitle": "Share of individuals aged 16 to 74 who reported using generative AI tools in the previous three months.",
-    "url": "https://ourworldindata.org/grapher/share-europe-using-generative-ai",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "share-firms-top-female-manager",
     "title": "Share of firms with a female top manager",
-    "subtitle": "Top manager refers to the highest ranking manager or CEO of the establishment. This may be the owner if she works as the manager of the firm.",
+    "subtitle": "“Top manager” refers to the highest-ranking manager or chief executive officer of the organization. This may be the owner if she works as the manager of the firm.",
     "url": "https://ourworldindata.org/grapher/share-firms-top-female-manager",
     "availableTabs": [
       "Table",
@@ -11050,18 +10666,6 @@
     "title": "Share of global forest area",
     "subtitle": "",
     "url": "https://ourworldindata.org/grapher/share-global-forest",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "share-graduates-stem-female",
-    "title": "Share of women graduating from STEM programs in tertiary education",
-    "subtitle": "Proportion of female graduates in STEM (Science, Technology, Engineering, and Mathematics) fields at the tertiary level of education.",
-    "url": "https://ourworldindata.org/grapher/share-graduates-stem-female",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -11132,18 +10736,6 @@
     ]
   },
   {
-    "slug": "share-living-with-less-than-upper-middle-income-poverty-line",
-    "title": "Poverty: Share of population living on less than $8.30 a day",
-    "subtitle": "The poverty line of $8.30 per day is set by the World Bank to be representative of the definitions of poverty adopted in upper-middle-income countries. This data is adjusted for inflation and differences in living costs between countries.",
-    "url": "https://ourworldindata.org/grapher/share-living-with-less-than-upper-middle-income-poverty-line",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "share-manufacture-exports",
     "title": "Share of manufactured products in total merchandise exports",
     "subtitle": "Value of manufacture exports divided by the total value of merchandise exports, expressed as a percentage.",
@@ -11158,7 +10750,7 @@
   {
     "slug": "share-multi-poverty",
     "title": "Share of population living in multidimensional poverty",
-    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators.",
+    "subtitle": "Multidimensional poverty is defined as being deprived in a range of health, education and living standards indicators. Estimates based on the most recent household survey data.",
     "url": "https://ourworldindata.org/grapher/share-multi-poverty",
     "availableTabs": [
       "Table",
@@ -11998,7 +11590,7 @@
   {
     "slug": "share-of-population-in-severe-multidimensional-poverty",
     "title": "Share of population living in severe multidimensional poverty",
-    "subtitle": "Severe multidimensional poverty is defined as being highly deprived in a range of health, education and living standards indicators.",
+    "subtitle": "Severe multidimensional poverty is defined as being highly deprived in a range of health, education and living standards indicators. Estimates based on the most recent household survey data.",
     "url": "https://ourworldindata.org/grapher/share-of-population-in-severe-multidimensional-poverty",
     "availableTabs": [
       "Table",
@@ -12261,18 +11853,6 @@
     ]
   },
   {
-    "slug": "share-of-the-population-with-a-completed-post-secondary-education",
-    "title": "Share of the population with post-secondary education or higher",
-    "subtitle": "",
-    "url": "https://ourworldindata.org/grapher/share-of-the-population-with-a-completed-post-secondary-education",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "share-of-the-population-with-access-to-electricity",
     "title": "Share of the population with access to electricity",
     "subtitle": "",
@@ -12293,6 +11873,18 @@
       "Table",
       "WorldMap",
       "LineChart"
+    ]
+  },
+  {
+    "slug": "share-of-the-population-with-completed-tertiary-education",
+    "title": "Share of the population with tertiary education",
+    "subtitle": "Percentage of the population aged 25 to 65 years who have either completed or partially completed tertiary education.",
+    "url": "https://ourworldindata.org/grapher/share-of-the-population-with-completed-tertiary-education",
+    "availableTabs": [
+      "Table",
+      "WorldMap",
+      "LineChart",
+      "DiscreteBar"
     ]
   },
   {
@@ -12459,17 +12051,6 @@
     ]
   },
   {
-    "slug": "share-of-young-people-in-european-countries-using-generative-ai-tools",
-    "title": "Share of young people in European countries using generative AI tools",
-    "subtitle": "Share of individuals aged 16 to 24 who reported using generative AI tools in the previous three months.",
-    "url": "https://ourworldindata.org/grapher/share-of-young-people-in-european-countries-using-generative-ai-tools",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "DiscreteBar"
-    ]
-  },
-  {
     "slug": "share-people-fully-vaccinated-covid",
     "title": "Share of people who completed the initial COVID-19 vaccination protocol",
     "subtitle": "Total number of people who received all doses prescribed by the initial vaccination protocol, divided by the total population of the country.",
@@ -12525,17 +12106,6 @@
       "Table",
       "WorldMap",
       "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "share-population-mobile-phone",
-    "title": "Share of the population that owns a mobile phone",
-    "subtitle": "Share of the population that has a mobile phone device with at least one active SIM card for personal use.",
-    "url": "https://ourworldindata.org/grapher/share-population-mobile-phone",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
       "DiscreteBar"
     ]
   },
@@ -12599,7 +12169,7 @@
   {
     "slug": "share-who-report-lifetime-anxiety-or-depression",
     "title": "Share who report lifetime anxiety or depression",
-    "subtitle": "Respondents were asked 'Have you ever been so anxious or depressed that you could not continue your regular daily activities as you normally would for two weeks or longer?'",
+    "subtitle": "Respondents were asked “Have you ever been so anxious or depressed that you could not continue your regular daily activities as you normally would for two weeks or longer?”",
     "url": "https://ourworldindata.org/grapher/share-who-report-lifetime-anxiety-or-depression",
     "availableTabs": [
       "Table",
@@ -12647,7 +12217,7 @@
   {
     "slug": "share-with-mental-and-substance-disorders",
     "title": "Share of population with mental health disorders",
-    "subtitle": "This includes depression, anxiety, bipolar, eating disorders, and schizophrenia.",
+    "subtitle": "This includes depression, anxiety, bipolar disorder, eating disorders, and schizophrenia.",
     "url": "https://ourworldindata.org/grapher/share-with-mental-and-substance-disorders",
     "availableTabs": [
       "Table",
@@ -12735,7 +12305,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -12746,7 +12316,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -12757,7 +12327,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -12840,7 +12410,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -12899,18 +12469,6 @@
       "DiscreteBar",
       "SlopeChart",
       "Marimekko"
-    ]
-  },
-  {
-    "slug": "sugar-cane-production",
-    "title": "Sugar cane production",
-    "subtitle": "Sugar cane production is measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/sugar-cane-production",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
     ]
   },
   {
@@ -13246,18 +12804,6 @@
       "Dumbbell",
       "SlopeChart",
       "Marimekko"
-    ]
-  },
-  {
-    "slug": "tomato-production",
-    "title": "Tomato production",
-    "subtitle": "Tomato production is measured in tonnes.",
-    "url": "https://ourworldindata.org/grapher/tomato-production",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
     ]
   },
   {
@@ -13700,7 +13246,8 @@
     "url": "https://ourworldindata.org/grapher/united-nations-membership-status",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -13723,7 +13270,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -13734,7 +13281,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -13745,7 +13292,7 @@
     "availableTabs": [
       "Table",
       "WorldMap",
-      "LineChart"
+      "Swimlane"
     ]
   },
   {
@@ -13791,18 +13338,6 @@
     "title": "Share of population living in cities with more than 1 million residents",
     "subtitle": "Estimated share of the population living in cities with 1 million or more people. City boundaries are defined using a consistent global approach based on satellite imagery and population data.",
     "url": "https://ourworldindata.org/grapher/urban-agglomerations-1-million-percent",
-    "availableTabs": [
-      "Table",
-      "WorldMap",
-      "LineChart",
-      "DiscreteBar"
-    ]
-  },
-  {
-    "slug": "urban-area-long-term",
-    "title": "Urban area over the long-term",
-    "subtitle": "Estimated urban area by region or country, measured in square kilometers (km²) is calculated by dividing the total urban population of a country in a given year by the average urban densities in that country during the same year.",
-    "url": "https://ourworldindata.org/grapher/urban-area-long-term",
     "availableTabs": [
       "Table",
       "WorldMap",
@@ -14205,22 +13740,24 @@
   },
   {
     "slug": "women-and-men-have-equal-rights-to-immovable-property",
-    "title": "Women and men have the same rights to own property",
-    "subtitle": "",
+    "title": "Do women and men have the same rights to own property?",
+    "subtitle": "“Yes” means women and men have the same rights to own and manage land and buildings, and husbands have no extra control over the couple’s property.",
     "url": "https://ourworldindata.org/grapher/women-and-men-have-equal-rights-to-immovable-property",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
     "slug": "women-can-take-the-same-jobs-as-men",
-    "title": "Women can take the same jobs as men",
-    "subtitle": "",
+    "title": "Can women get a job in the same way as men?",
+    "subtitle": "“Yes” means a husband can’t stop his wife from working, and women don’t need any permission or documents to get a job that men don’t need.",
     "url": "https://ourworldindata.org/grapher/women-can-take-the-same-jobs-as-men",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -14318,12 +13855,13 @@
   },
   {
     "slug": "women-required-to-obey-husband",
-    "title": "Married women are required by law to obey their husbands",
-    "subtitle": "Any provision stating that married women must obey their husband or if disobeying their husband has legal ramifications for them, such as loss of their right to maintenance.",
+    "title": "Are married women required by law to obey their husbands?",
+    "subtitle": "In some countries, the law requires married women to obey their husbands, or punishes them for disobeying, for example by taking away their right to financial support from their husband.",
     "url": "https://ourworldindata.org/grapher/women-required-to-obey-husband",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
@@ -14356,7 +13894,8 @@
     "url": "https://ourworldindata.org/grapher/world-bank-income-groups",
     "availableTabs": [
       "Table",
-      "WorldMap"
+      "WorldMap",
+      "Swimlane"
     ]
   },
   {
